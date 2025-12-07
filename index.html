@@ -14,19 +14,26 @@
         
         body {
             display: flex;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            font-family: 'Montserrat', sans-serif;
             background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
         }
         
         .container {
+            font-family: "Montserrat", sans-serif;
             text-align: center;
+            margin-left: 60px;
+            flex: 1;
+            min-width: 250px;
+            max-width: 500px;
         }
         
         .heading {
-            font-family: "Montserrat", sans-serif;
             font-optical-sizing: auto;
             font-weight: 900;
             font-style: normal;
@@ -52,24 +59,120 @@
         }
 
         .email {
-          font-family: "Montserrat", sans-serif;
           font-size: 2em;
           font-optical-sizing: auto;
           font-weight: 400;
           font-style: normal;
           color: #a36250;
         }
+
+        .container.kolorenn {
+          font-family: "EB Garamond", serif;
+        }
+
+        /* Mobile responsive styles */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                min-height: auto;
+                padding: 15px;
+            }
+
+            .container {
+                margin-left: 0;
+                max-width: 100%;
+                flex: none;
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2.subtitle {
+                font-size: 1.3em;
+            }
+
+            .logo {
+                width: 200px;
+                height: 200px;
+                margin: 0 auto 30px;
+            }
+
+            .email {
+                font-size: 1.2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+                gap: 15px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+                margin-bottom: 5px;
+            }
+
+            h2.subtitle {
+                font-size: 1em;
+            }
+
+            .logo {
+                width: 150px;
+                height: 150px;
+                margin: 0 auto 20px;
+            }
+
+            .email {
+                font-size: 0.9em;
+            }
+
+            .description {
+                font-size: 0.8em;
+                margin: 10px auto 20px;
+                padding: 0 5px;
+            }
+        }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
           <h1 class="heading">Collorec</h1>
-          <h2 class="subtitle">C'est Coloré !</h2>
+          <h2 class="subtitle">Coloré</h2>
+          <p class="description">Le nom de la ville contient sa propre qualité : Collorec, c'est coloré ! Au-delà des couleurs visuelles, "être coloré" signifie avoir du caractère, de la diversité (associations, paysages, histoires), et être chaleureux. C'est l'antidote à la morosité.</p>
         <img src="assest/images/c_color_no_bg.svg" alt="Collorec Logo" class="logo">
-        <p class="email">2026@collorec.bzh</p>
+        <p class="email">Vote: colore@collorec.bzh</p>
     </div>
+    <div class="container kolorenn">
+      <h1 class="heading">Collorec</h1>
+      <h2 class="subtitle">Kolorenn</h2>
+      <p class="description">La noix de terre enracinée qui révèle l'étymologie du nom Collorec (Kolorenn). Un symbole d'ancrage profond et de richesse cachée, où les racines nourrissent la floraison.
+        Une commune aux fondations solides, fière de son étymologie unique, et qui regarde vers l'avenir avec vitalité.</p>
+      <img src="assest/images/c_plant_no_bg.svg" alt="Collorec Logo" class="logo">
+      <p class="email">Vote: kolorenn@collorec.bzh</p>
+    </div>
+
+    <script>
+        // Randomly shuffle container order on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const body = document.body;
+            const containers = Array.from(document.querySelectorAll('.container'));
+
+            // Fisher-Yates shuffle algorithm
+            if (Math.random() > 0.5) {
+                // Swap the order of containers
+                containers.reverse();
+                // Clear body and re-append in shuffled order
+                containers.forEach(container => {
+                    body.appendChild(container);
+                });
+            }
+        });
+    </script>
 </body>
 </html>
