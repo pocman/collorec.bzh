@@ -1,0 +1,262 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #273d4a 0%, #3c5664 50%, #558499 100%);
+  color: white;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  opacity: 0.95;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1rem;
+  }
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.buttons .button--outline {
+  border-color: white;
+  color: white;
+}
+
+.buttons .button--outline:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Section Title */
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary-darkest);
+}
+
+.sectionSubtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+/* Key Points Section */
+.keyPoints {
+  padding: 5rem 0;
+  background-color: #fff6e2;
+}
+
+.keyPointsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.keyPointCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid #f3764c;
+}
+
+.keyPointCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.keyPointCard h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  color: #3c5664;
+}
+
+.keyPointCard p {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Candidates Section */
+.candidates {
+  padding: 5rem 0;
+}
+
+.candidatesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.candidateCard {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.candidateCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.candidateAvatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #869c80, #558499);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 auto 1rem auto;
+}
+
+.candidateCard h3 {
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+.candidateRole {
+  display: inline-block;
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.candidateCard p {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.seeMoreButton {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* About Section */
+.aboutSection {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #fff6e2 0%, #f5edd9 100%);
+}
+
+.aboutContent {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.aboutText h2 {
+  color: var(--ifm-color-primary-darkest);
+  margin-bottom: 1.5rem;
+}
+
+.aboutText p {
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.aboutStats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.statItem {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.statNumber {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #f3764c;
+}
+
+.statLabel {
+  color: #666;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* CTA Section */
+.ctaSection {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #f3764c 0%, #d59237 100%);
+  color: white;
+  text-align: center;
+}
+
+.ctaSection h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.ctaSection p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}

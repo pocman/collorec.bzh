@@ -1,0 +1,24 @@
+actualites:
+  label: Actualités
+  permalink: /actualites
+  description: Les dernières nouvelles de la campagne
+
+programme:
+  label: Programme
+  permalink: /programme
+  description: Articles sur notre programme municipal
+
+reunions:
+  label: Réunions
+  permalink: /reunions
+  description: Annonces et comptes-rendus des réunions publiques
+
+collorec:
+  label: Collorec
+  permalink: /collorec
+  description: Informations sur notre commune
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
