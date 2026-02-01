@@ -16,12 +16,8 @@ Nous sommes à votre disposition pour échanger sur notre programme, répondre �
 ### 📧 Email
 **contact@collorec-terredeliens.bzh**
 
-### 📍 Adresse
-Collorec, 29530  
-Finistère, Bretagne
-
 ### 📅 Réunions Publiques
-Dates à venir - Restez informés !
+7 février à la Maison Pour Tous.
 
 ---
 
@@ -29,15 +25,15 @@ Dates à venir - Restez informés !
 
 Venez échanger avec nous lors de nos réunions publiques. C'est l'occasion de découvrir notre programme, de poser vos questions et de partager vos idées pour Collorec.
 
-| Date | Lieu | Horaire |
-|------|------|---------|
-| À venir | À définir | À définir |
+| Date  | Lieu | Horaire |
+|-------|------|---------|
+| 07/02 | Maison Pour Tous  | 11h     |
 
 ---
 
 ## Envoyez-nous un message
 
-Pour nous contacter, envoyez-nous un email à **contact@collorec-terredeliens.bzh** avec :
+Pour nous contacter, envoyez-nous un email à **terre-de-liens@collorec.bzh** avec :
 
 - Votre nom
 - Votre email

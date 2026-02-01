@@ -158,25 +158,6 @@ function AboutCollorec(): ReactNode {
   );
 }
 
-function CallToAction(): ReactNode {
-  return (
-    <section className={styles.ctaSection}>
-      <div className="container">
-        <Heading as="h2">Rejoignez-nous !</Heading>
-        <p>
-          Vous souhaitez vous engager pour Collorec ? 
-          Participez à nos réunions publiques et partagez vos idées.
-        </p>
-        <Link
-          className="button button--secondary button--lg"
-          to="/contact">
-          Nous contacter 📧
-        </Link>
-      </div>
-    </section>
-  );
-}
-
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -188,7 +169,6 @@ export default function Home(): ReactNode {
         <KeyPointsSection />
         <AboutCollorec />
         <CandidatesSection />
-        <CallToAction />
       </main>
     </Layout>
   );
