@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Collorec, terre de liens',
   tagline: 'Élections municipales 2026',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -98,7 +98,7 @@ const config: Config = {
           items: [
             {
               label: 'Mairie de Collorec',
-              href: 'https://www.collorec.bzh',
+              href: 'https://www.facebook.com/p/Commune-de-Collorec-100064358790738/',
             },
             {
               label: 'Finistère',
