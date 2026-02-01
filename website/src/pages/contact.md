@@ -14,7 +14,7 @@ description: Contactez la liste Collorec, terre de liens - Élections municipale
 Nous sommes à votre disposition pour échanger sur notre programme, répondre à vos questions ou simplement vous rencontrer.
 
 ### 📧 Email
-**contact@collorec-terredeliens.bzh**
+**terre-de-liens@collorec.bzh**
 
 ### 📅 Réunions Publiques
 7 février à la Maison Pour Tous.
