@@ -23,8 +23,9 @@
   border-radius: 50%;
   overflow: hidden;
   border: 5px solid #d59237;
-  background: #d59237;
+  background: #fff6e2;
   position: relative;
+  box-shadow: inset 0 0 0 8px #fff6e2;
 }
 
 .memberPhoto img {
