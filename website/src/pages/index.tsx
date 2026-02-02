@@ -7,33 +7,41 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-// Liste des candidats
+// Liste des candidats avec photos
 const candidates = [
-  { name: 'À définir', role: 'Tête de liste', description: 'Engagé(e) pour le développement durable de Collorec' },
-  { name: 'À définir', role: 'Candidat(e)', description: 'Acteur/Actrice de la vie associative locale' },
-  { name: 'À définir', role: 'Candidat(e)', description: 'Impliqué(e) dans la vie économique du territoire' },
-  { name: 'À définir', role: 'Candidat(e)', description: 'Défenseur/Défenseuse du patrimoine collorécois' },
-  { name: 'À définir', role: 'Candidat(e)', description: 'Engagé(e) pour la jeunesse et l\'éducation' },
-  { name: 'À définir', role: 'Candidat(e)', description: 'Acteur/Actrice du monde agricole' },
+  { name: 'Georges Croguennec', role: 'Maire sortant', photo: '/img/team/Georges.jpg', description: '68 ans - Retraité de l\'agriculture' },
+  { name: 'Nadine Poupon', role: 'Adjointe sortante', photo: '/img/team/Nadine.jpg', description: '65 ans - Infirmière retraitée' },
+  { name: 'Philippe Castel', role: 'Président Collorec en fête', photo: '/img/team/philippe.jpg', description: '30 ans - Artisan plombier et électricien' },
+  { name: 'Fabienne Bourlès', role: 'Conseillère sortante', photo: '/img/team/fabienne.jpeg', description: '36 ans - Apicultrice' },
+  { name: 'Delphine Cochennec', role: 'Conseillère sortante', photo: '/img/team/Delphine.jpg', description: '38 ans - Consultante en recrutement' },
+  { name: 'Francis Le Baut', role: 'Conseiller sortant', photo: '/img/team/francis.jpg', description: '66 ans - Retraité de l\'agriculture' },
 ];
 
-// Points clés du programme
+// Points clés du programme (basés sur la circulaire)
 const keyPoints = [
   {
-    title: '🌱 Transition Écologique',
-    description: 'Accompagner la transition énergétique et préserver notre environnement naturel exceptionnel.',
+    title: '� Habitat & Mobilité',
+    description: 'Favoriser le locatif, activer la compétence mobilité, entretenir la voirie et la sécurité routière.',
   },
   {
-    title: '🤝 Lien Social',
-    description: 'Renforcer les liens entre les habitants et soutenir la vie associative locale.',
+    title: '🎒 Vie Scolaire',
+    description: 'Aménager l\'école et ses abords, soutenir les projets pédagogiques, conforter la cantine et la garderie.',
   },
   {
-    title: '🏡 Cadre de Vie',
-    description: 'Améliorer les services de proximité et l\'attractivité de notre commune.',
+    title: '💼 Vie Économique',
+    description: 'Extension du restaurant, soutien aux artisans et agriculteurs, reprise du local communautaire.',
   },
   {
-    title: '💼 Économie Locale',
-    description: 'Soutenir l\'agriculture, l\'artisanat et les commerces de proximité.',
+    title: '�️ Culture & Patrimoine',
+    description: 'Commission culture, entretien des chapelles et de l\'église, mise en valeur du plan d\'eau.',
+  },
+  {
+    title: '� Communication',
+    description: 'Site internet, newsletters, bulletin municipal, permanence d\'un élu le samedi matin.',
+  },
+  {
+    title: '🤝 Social',
+    description: 'Maintien du CCAS, soutien aux associations, lien intergénérationnel.',
   },
 ];
 
@@ -47,8 +55,9 @@ function HomepageHeader() {
         </Heading>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <p className={styles.heroDescription}>
-          Ensemble, construisons l'avenir de Collorec avec une équipe engagée, 
-          à l'écoute des habitants et tournée vers un développement harmonieux de notre commune.
+          Une équipe menée par Georges Croguennec, maire sortant, avec l'ambition 
+          de renforcer les liens entre les habitants et les acteurs de notre commune. 
+          Dialogue, concertation et solidarité pour construire une Collorec plus unie et dynamique.
         </p>
         <div className={styles.buttons}>
           <Link
@@ -95,13 +104,13 @@ function CandidatesSection(): ReactNode {
           Notre Liste Municipale
         </Heading>
         <p className={styles.sectionSubtitle}>
-          Des femmes et des hommes de Collorec, engagés pour notre commune
+          17 femmes et hommes de Collorec, engagés pour notre commune
         </p>
         <div className={styles.candidatesGrid}>
           {candidates.map((candidate, idx) => (
             <div key={idx} className={styles.candidateCard}>
               <div className={styles.candidateAvatar}>
-                {candidate.name.charAt(0)}
+                <img src={candidate.photo} alt={candidate.name} />
               </div>
               <Heading as="h3">{candidate.name}</Heading>
               <span className={styles.candidateRole}>{candidate.role}</span>
@@ -127,31 +136,63 @@ function AboutCollorec(): ReactNode {
       <div className="container">
         <div className={styles.aboutContent}>
           <div className={styles.aboutText}>
-            <Heading as="h2">Collorec, notre commune</Heading>
+            <Heading as="h2">À propos de notre projet</Heading>
             <p>
-              Située au cœur du Finistère, Collorec est une commune rurale riche 
-              de son patrimoine, de ses paysages et surtout de ses habitants.
+              Avec <strong>"Collorec, terre de liens"</strong>, nous voulons construire une commune 
+              où chacun se sent impliqué et où les projets naissent de la collaboration entre élus et citoyens.
             </p>
             <p>
-              <strong>Notre liste "Collorec, terre de liens"</strong> propose une 
-              vision ambitieuse et réaliste pour répondre à ces enjeux, 
-              en plaçant l'humain et le lien social au cœur de notre projet.
+              Notre ambition est claire : <strong>renforcer les liens entre les habitants</strong>, 
+              les associations et les acteurs économiques pour bâtir une Collorec plus unie et dynamique.
+            </p>
+            <p>
+              <em>"Nous voulons que Collorec soit une terre d'accueil, de partage et de solidarité. 
+              Chaque idée, chaque projet compte pour nous."</em> déclare Georges Croguennec, maire sortant.
+            </p>
+            <p>
+              L'<strong>écoute et la concertation</strong> sont au cœur de notre approche. 
+              Nous croyons que c'est ensemble que nous construirons l'avenir de Collorec.
             </p>
           </div>
           <div className={styles.aboutStats}>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>~600</span>
-              <span className={styles.statLabel}>Habitants</span>
+              <span className={styles.statNumber}>17</span>
+              <span className={styles.statLabel}>Candidats</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>29</span>
-              <span className={styles.statLabel}>Finistère</span>
+              <span className={styles.statNumber}>6</span>
+              <span className={styles.statLabel}>Axes de programme</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>2026</span>
+              <span className={styles.statNumber}>Mars 2026</span>
               <span className={styles.statLabel}>Élections</span>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function MeetingBanner(): ReactNode {
+  // Afficher la bannière jusqu'au 9 février (2 jours après le 7 février)
+  const meetingDate = new Date(2026, 1, 7); // 7 février 2026
+  const hideDate = new Date(2026, 1, 9); // 9 février 2026
+  const today = new Date();
+  
+  if (today > hideDate) {
+    return null;
+  }
+
+  return (
+    <section className={styles.meetingBanner}>
+      <div className="container">
+        <div className={styles.meetingContent}>
+          <Heading as="h2">📅 Réservez la date !</Heading>
+          <p className={styles.meetingTitle}>Réunion publique</p>
+          <p className={styles.meetingDate}>Samedi 07 février à 11h</p>
+          <p className={styles.meetingPlace}>à la Maison Pour Tous</p>
+          <p className={styles.meetingDescription}>Présentation de l'équipe et du programme</p>
         </div>
       </div>
     </section>
@@ -166,6 +207,7 @@ export default function Home(): ReactNode {
       description="Collorec, terre de liens - Liste municipale candidate aux élections 2026. Ensemble pour un avenir durable et solidaire.">
       <HomepageHeader />
       <main>
+        <MeetingBanner />
         <KeyPointsSection />
         <AboutCollorec />
         <CandidatesSection />

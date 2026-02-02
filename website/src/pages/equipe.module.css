@@ -1,0 +1,86 @@
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.memberCard {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: var(--collorec-cream);
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.memberCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(39, 61, 74, 0.15);
+}
+
+.memberPhoto {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid var(--collorec-gold);
+  box-shadow: 0 4px 15px rgba(213, 146, 55, 0.3);
+}
+
+.memberPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.memberCard h3 {
+  color: var(--collorec-navy);
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.memberAge {
+  color: var(--collorec-orange);
+  font-weight: 600;
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+.memberJob {
+  color: var(--collorec-dark-blue);
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.memberEngagement {
+  color: var(--collorec-sage);
+  font-style: italic;
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .teamGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .memberPhoto {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .memberCard h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+}
