@@ -73,7 +73,6 @@ const config: Config = {
       items: [
         {to: '/programme', label: 'Notre Programme', position: 'left'},
         {to: '/equipe', label: 'L\'Équipe', position: 'left'},
-        // {to: '/blog', label: 'Actualités', position: 'left'},
         {to: '/contact', label: 'Contact', position: 'right'},
       ],
     },
@@ -109,10 +108,6 @@ const config: Config = {
         {
           title: 'Nous Suivre',
           items: [
-            {
-              label: 'Actualités',
-              to: '/blog',
-            },
             {
               label: 'Contact',
               to: '/contact',
