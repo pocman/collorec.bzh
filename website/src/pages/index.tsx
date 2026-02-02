@@ -20,7 +20,7 @@ const candidates = [
 // Points clés du programme (basés sur la circulaire)
 const keyPoints = [
   {
-    title: '� Habitat & Mobilité',
+    title: '🏠 Habitat & Mobilité',
     description: 'Favoriser le locatif, activer la compétence mobilité, entretenir la voirie et la sécurité routière.',
   },
   {
@@ -32,11 +32,11 @@ const keyPoints = [
     description: 'Extension du restaurant, soutien aux artisans et agriculteurs, reprise du local communautaire.',
   },
   {
-    title: '�️ Culture & Patrimoine',
+    title: '🎭 Culture & Patrimoine',
     description: 'Commission culture, entretien des chapelles et de l\'église, mise en valeur du plan d\'eau.',
   },
   {
-    title: '� Communication',
+    title: '📢 Communication',
     description: 'Site internet, newsletters, bulletin municipal, permanence d\'un élu le samedi matin.',
   },
   {
@@ -50,6 +50,9 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
+        <div className={styles.heroLogo}>
+          <img src="/img/logo.svg" alt="Collorec, terre de liens" />
+        </div>
         <Heading as="h1" className={styles.heroTitle}>
           {siteConfig.title}
         </Heading>

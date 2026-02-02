@@ -18,7 +18,7 @@ description: Découvrez le programme de la liste Collorec, terre de liens pour l
 
 ---
 
-## � Vie Scolaire
+## 🎒 Vie Scolaire
 
 - Aménager l'école et ses abords (fresque, signalétique)
 - S'adapter aux projets pédagogiques (école dehors, potager des graineuses, ...)
@@ -34,7 +34,7 @@ description: Découvrez le programme de la liste Collorec, terre de liens pour l
 
 ---
 
-## �️ Culture, Patrimoine et Loisirs
+## 🎭 Culture, Patrimoine et Loisirs
 
 - Créer une commission culture & patrimoine
 - Financer du matériel (chapiteau, son et lumière ...)
@@ -44,7 +44,7 @@ description: Découvrez le programme de la liste Collorec, terre de liens pour l
 
 ---
 
-## � Communication et Social
+## 🤝 Communication et Social
 
 - Site internet, « newsletters » et bulletin municipal
 - Permanence d'un élu le samedi matin
