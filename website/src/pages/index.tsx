@@ -116,8 +116,9 @@ function CandidatesSection(): ReactNode {
                 <img src={candidate.photo} alt={candidate.name} />
               </div>
               <Heading as="h3">{candidate.name}</Heading>
-              <span className={styles.candidateRole}>{candidate.role}</span>
-              <p>{candidate.description}</p>
+              <p className={styles.candidateAge}>{candidate.description.split(' - ')[0]}</p>
+              <p className={styles.candidateJob}>{candidate.description.split(' - ')[1]}</p>
+              <p className={styles.candidateRole}>{candidate.role}</p>
             </div>
           ))}
         </div>
