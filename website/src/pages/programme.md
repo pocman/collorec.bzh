@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 # Lignes de Programme
 
-**6 axes prioritaires pour construire ensemble l'avenir de Collorec**
+**5 axes prioritaires pour construire ensemble l'avenir de Collorec**
 
 ---
 
