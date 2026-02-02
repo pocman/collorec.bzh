@@ -1,6 +1,7 @@
 ---
 title: Notre Équipe
 description: Découvrez les 17 candidats de la liste Collorec, terre de liens pour les élections municipales 2026
+hide_table_of_contents: true
 ---
 
 import styles from './equipe.module.css';

@@ -60,18 +60,18 @@ function HomepageHeader() {
         <p className={styles.heroDescription}>
           Une équipe menée par Georges Croguennec, maire sortant, avec l'ambition 
           de renforcer les liens entre les habitants et les acteurs de notre commune. 
-          Dialogue, concertation et solidarité pour construire une Collorec plus unie et dynamique.
+          Dialogue, concertation et solidarité pour construire une commune plus unie et dynamique.
         </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/programme">
-            Découvrir notre programme 📋
+            Découvrir notre programme
           </Link>
           <Link
             className="button button--outline button--lg"
             to="/equipe">
-            Rencontrer l'équipe 👥
+            Rencontrer l'équipe
           </Link>
         </div>
       </div>

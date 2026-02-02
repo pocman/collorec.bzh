@@ -25,14 +25,14 @@
   font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  color: #d59237;
+  color: #f3764c;
 }
 
 .heroSubtitle {
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
-  color: #869c80;
+  color: var(--ifm-color-primary-darkest);;
 }
 
 .heroDescription {

@@ -1,6 +1,7 @@
 ---
 title: Contact
 description: Contactez la liste Collorec, terre de liens - Élections municipales 2026
+hide_table_of_contents: true
 ---
 
 # Nous Contacter

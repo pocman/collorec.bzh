@@ -1,6 +1,7 @@
 ---
 title: Lignes de Programme
 description: Découvrez le programme de la liste Collorec, terre de liens pour les élections municipales 2026
+hide_table_of_contents: true
 ---
 
 # Lignes de Programme
