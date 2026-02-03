@@ -70,7 +70,7 @@ import styles from './equipe.module.css';
   </div>
   <h3>Fabienne Bourlès</h3>
   <p className={styles.memberAge}>36 ans</p>
-  <p className={styles.memberJob}>Apicultrice</p>
+  <p className={styles.memberJob}>Agricultrice</p>
   <p className={styles.memberEngagement}>Présidente de l'APE Collorécoise, Conseillère sortante</p>
 </div>
 

@@ -12,7 +12,7 @@ const candidates = [
   { name: 'Georges Croguennec', role: 'Maire sortant', photo: '/img/team/georges.png', description: '68 ans - Retraité de l\'agriculture' },
   { name: 'Nadine Poupon', role: 'Adjointe sortante', photo: '/img/team/nadine.png', description: '65 ans - Infirmière retraitée' },
   { name: 'Philippe Castel', role: 'Président Collorec en fête', photo: '/img/team/philippe.png', description: '30 ans - Artisan plombier et électricien' },
-  { name: 'Fabienne Bourlès', role: 'Conseillère sortante', photo: '/img/team/fabienne.png', description: '36 ans - Apicultrice' },
+  { name: 'Fabienne Bourlès', role: 'Conseillère sortante', photo: '/img/team/fabienne.png', description: '36 ans - Agricultrice' },
   { name: 'Delphine Cochennec', role: 'Conseillère sortante', photo: '/img/team/delphine.png', description: '38 ans - Consultante en recrutement' },
   { name: 'Francis Le Baut', role: 'Conseiller sortant', photo: '/img/team/francis.png', description: '66 ans - Retraité de l\'agriculture' },
 ];

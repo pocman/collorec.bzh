@@ -17,14 +17,11 @@ Nous sommes à votre disposition pour échanger sur notre programme, répondre �
 ### 📧 Email
 **terre-de-liens@collorec.bzh**
 
-### 📅 Réunions Publiques
-7 février à la Maison Pour Tous.
-
 ---
 
-## Prochaines Réunions Publiques
+## Réunion Publique
 
-Venez échanger avec nous lors de nos réunions publiques. C'est l'occasion de découvrir notre programme, de poser vos questions et de partager vos idées pour Collorec.
+Venez échanger avec nous lors de la réunion publique. C'est l'occasion de découvrir notre programme, de poser vos questions et de partager vos idées pour Collorec.
 
 | Date  | Lieu | Horaire |
 |-------|------|---------|
