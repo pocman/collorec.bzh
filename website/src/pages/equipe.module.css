@@ -43,17 +43,26 @@
 }
 
 .memberAge {
-  color: var(--collorec-navy);
+  color: #273d4a;
   font-weight: 600;
   margin: 0.25rem 0;
   font-size: 0.85rem;
 }
 
 .memberJob {
-  color: var(--collorec-dark-blue);
+  color: #3c5664;
   margin: 0.25rem 0;
   font-size: 0.85rem;
   font-weight: 500;
+}
+
+/* Dark mode colors for better readability */
+[data-theme='dark'] .memberAge {
+  color: #f3764c;
+}
+
+[data-theme='dark'] .memberJob {
+  color: #a5b7a1;
 }
 
 .memberEngagement {

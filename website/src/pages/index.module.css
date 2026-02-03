@@ -180,26 +180,35 @@
 }
 
 .candidateAge {
-  color: var(--collorec-navy);
+  color: #273d4a;
   font-weight: 600;
   margin: 0.25rem 0;
   font-size: 0.85rem;
 }
 
 .candidateJob {
-  color: var(--collorec-dark-blue);
+  color: #3c5664;
   margin: 0.25rem 0;
   font-size: 0.85rem;
   font-weight: 500;
 }
 
 .candidateRole {
-  color: var(--collorec-sage);
+  color: #869c80;
   font-style: italic;
   margin: 0.5rem 0 0;
   font-size: 0.8rem;
   line-height: 1.4;
   display: block;
+}
+
+/* Dark mode colors for better readability */
+[data-theme='dark'] .candidateAge {
+  color: #f3764c;
+}
+
+[data-theme='dark'] .candidateJob {
+  color: #a5b7a1;
 }
 
 .seeMoreButton {
@@ -296,7 +305,7 @@
 /* Meeting Banner */
 .meetingBanner {
   padding: 3rem 0;
-  background: linear-gradient(135deg, #f3764c 0%, #d59237 100%);
+  background: #f3764c;
   color: white;
   text-align: center;
 }
