@@ -310,6 +310,85 @@
   text-align: center;
 }
 
+/* Facebook Banner */
+.facebookBanner {
+  padding: 2rem 0;
+  background: #273d4a;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.facebookBanner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.facebookContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.facebookIcon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.facebookText {
+  text-align: left;
+  max-width: 500px;
+}
+
+.facebookText h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+  color: white;
+}
+
+.facebookText p {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.facebookAction .button:hover {
+  background: #1e2d38 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .facebookContent {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .facebookText {
+    text-align: center;
+  }
+
+  .facebookText h2 {
+    font-size: 1.3rem;
+  }
+
+  .facebookIcon {
+    font-size: 2rem;
+  }
+}
+
 .meetingContent h2 {
   font-size: 2rem;
   margin-bottom: 1rem;

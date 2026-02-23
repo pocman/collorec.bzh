@@ -73,6 +73,11 @@ const config: Config = {
       items: [
         {to: '/programme', label: 'Notre Programme', position: 'left'},
         {to: '/equipe', label: 'L\'Équipe', position: 'left'},
+        {
+          href: 'https://www.facebook.com/profile.php?id=61588640097787',
+          label: 'Facebook',
+          position: 'right',
+        },
         {to: '/contact', label: 'Contact', position: 'right'},
       ],
     },
@@ -108,6 +113,10 @@ const config: Config = {
         {
           title: 'Nous Suivre',
           items: [
+            {
+              label: 'Facebook',
+              href: 'https://www.facebook.com/profile.php?id=61588640097787',
+            },
             {
               label: 'Contact',
               to: '/contact',
