@@ -51,6 +51,9 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        sitemap: {
+          changefreq: 'daily',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
