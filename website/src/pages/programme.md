@@ -6,51 +6,54 @@ hide_table_of_contents: true
 
 # Lignes de Programme
 
-**5 axes prioritaires pour construire ensemble l'avenir de Collorec**
+**Notre vision pour Collorec : une commune unie, dynamique et solidaire**
 
 ---
 
 ## 🏠 Habitat, Mobilité et Sécurité
 
-- Favoriser et développer le locatif
+- Favoriser l'installation de nouveaux habitants
+- Développer une politique de logements locatifs adaptée
+- Entretien de la voirie et renforcement de la sécurité routière
+- Mettre en place un plan communal de sauvegarde
 - Activer la compétence communautaire « mobilité »
-- Entretien de la voirie et sécurité routière
-- Plan communal de sauvegarde, etc.
 
 ---
 
 ## 🎒 Vie Scolaire
 
-- Aménager l'école et ses abords (fresque, signalétique)
-- S'adapter aux projets pédagogiques (école dehors, potager des graineuses, ...)
-- Conforter la cantine et la garderie, etc.
+- Maintenir une école de qualité ainsi que le service périscolaire
+- Sécuriser et aménager les abords de l'école (signalétique, fresque, etc.)
+- Accompagner les projets pédagogiques (école en extérieur, potager, sorties éducatives, etc.)
 
 ---
 
 ## 💼 Vie Économique
 
-- Extension légère du restaurant
-- Soutien aux artisans et agriculteurs
-- Reprise du local communautaire (lieu culturel, associatif), etc.
+- Extension du restaurant
+- Reprise du local communautaire dans le but d'y accueillir des associations, un commerce, etc.
+- Soutenir et valoriser les commerces et artisans locaux
+- Accompagner les agriculteurs (circuits courts, maintien des prairies, des haies, etc.)
 
 ---
 
 ## 🎭 Culture, Patrimoine et Loisirs
 
-- Créer une commission culture & patrimoine
-- Financer du matériel (chapiteau, son et lumière ...)
-- Entretenir les chapelles et l'église
-- Mettre en valeur le plan d'eau
-- Rénover la mairie, etc.
+- Créer une commission « Culture & Patrimoine » ouverte aux habitants
+- Valoriser le patrimoine communal (chapelles, église, calvaires, fontaines, plan d'eau, etc.)
+- Améliorer les équipements communaux (chapiteau, matériel son, éclairage, etc.)
+- Encourager les événements culturels et festifs pour tous les âges
+- Rénover la mairie et lui donner toute sa place comme maison commune (confidentialité, fonctionnalité, etc.)
 
 ---
 
-## 🤝 Communication et Social
+## 💬 Communication, Social et Solidarité
 
-- Site internet, « newsletters » et bulletin municipal
-- Permanence d'un élu le samedi matin
-- Maintien du Centre Communal d'Action Sociale (CCAS)
-- Soutien aux associations, etc.
+- Instaurer une communication claire et régulière (site internet, Facebook, bulletin municipal, etc.)
+- Régulariser une permanence d'élus, notamment le samedi matin
+- Maintenir le service de l'agence postale communale
+- Renforcer le rôle du Centre Communal d'Action Sociale (CCAS)
+- Soutenir les associations, piliers du lien social
 
 ---
 

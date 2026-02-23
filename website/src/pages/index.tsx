@@ -109,6 +109,9 @@ function CandidatesSection(): ReactNode {
         <p className={styles.sectionSubtitle}>
           17 femmes et hommes de Collorec, engagés pour notre commune
         </p>
+        <div className={styles.teamPhotoContainer}>
+          <img src="/img/team/liste.png" alt="Notre liste complète" className={styles.teamPhoto} />
+        </div>
         <div className={styles.candidatesGrid}>
           {candidates.map((candidate, idx) => (
             <div key={idx} className={styles.candidateCard}>
@@ -195,7 +198,7 @@ function FacebookBanner(): ReactNode {
               className="button button--lg"
               href="https://www.facebook.com/profile.php?id=61588640097787"
               style={{
-                background: '#273d4a',
+                background: '#f3764c',
                 color: 'white',
                 border: 'none',
                 display: 'inline-flex',

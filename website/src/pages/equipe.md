@@ -10,6 +10,8 @@ import styles from './equipe.module.css';
 
 **17 femmes et hommes engagés pour Collorec**
 
+![Notre liste complète](/img/team/liste.png)
+
 ---
 
 <div className={styles.teamGrid}>
