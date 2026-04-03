@@ -58,9 +58,9 @@ function HomepageHeader() {
         </Heading>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <p className={styles.heroDescription}>
-          Une équipe menée par Georges Croguennec, maire sortant, avec l'ambition 
-          de renforcer les liens entre les habitants et les acteurs de notre commune. 
-          Dialogue, concertation et solidarité pour construire une commune plus unie et dynamique.
+          A team led by Georges Croguennec, the outgoing mayor, with the ambition 
+          to strengthen the ties between residents and the stakeholders of our commune. 
+          Dialogue, consultation and solidarity to build a more united and dynamic community.
         </p>
         <div className={styles.buttons}>
           <Link
