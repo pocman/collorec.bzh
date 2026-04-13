@@ -1,2 +1,2 @@
 # collorec.bzh
-Site de Collorec
+Site de Collorec.
