@@ -151,12 +151,12 @@ function AgendaSection(): ReactNode {
               Calendrier des activités communales
             </Heading>
             <p className={styles.sectionLead}>
-              Consultez les prochains rendez-vous de chaque catégorie et téléchargez le calendrier au format iCalendar.
+              Consultez les prochains rendez-vous et abonnez-vous au calendrier pour le synchroniser sur votre téléphone et ne rien manquer de la vie locale à Collorec.
             </p>
           </div>
           <div className={styles.agendaActions}>
             <Link className="button button--primary button--lg" href="webcal://collorec.bzh/agenda.ics">
-              S'abonner à l'agenda
+              S'abonner au calendrier
             </Link>
           </div>
         </div>
