@@ -1,34 +1,34 @@
 [
   {
-    "title": "Réunion de l'APE",
+    "title": "[Test] Réunion de l'APE",
     "startsAt": "2026-05-14T18:30:00+02:00",
     "place": "École de Collorec",
     "details": "Point sur les projets scolaires et préparation de la kermesse.",
     "category": "APE"
   },
   {
-    "title": "Marché des Marguerites",
+    "title": "[Test] Marché des Marguerites",
     "startsAt": "2026-05-23T09:00:00+02:00",
     "place": "Plan d'eau",
     "details": "Producteurs locaux, artisanat, petite restauration et animations.",
     "category": "Marche"
   },
   {
-    "title": "Rencontre entreprises locales",
+    "title": "[Test] Rencontre entreprises locales",
     "startsAt": "2026-06-02T19:00:00+02:00",
     "place": "Maison Pour Tous",
     "details": "Temps d'échange entre entreprises, artisans et porteurs de projet.",
     "category": "Entreprises"
   },
   {
-    "title": "Forum des associations",
+    "title": "[Test] Forum des associations",
     "startsAt": "2026-06-12T18:00:00+02:00",
     "place": "Salle communale",
     "details": "Présentation des associations et inscriptions pour la saison.",
     "category": "Associations"
   },
   {
-    "title": "Kermesse de l'école",
+    "title": "[Test] Kermesse de l'école",
     "startsAt": "2026-06-20T14:00:00+02:00",
     "place": "Cour de l'école",
     "details": "Jeux, tombola et spectacle des élèves avec l'APE.",
