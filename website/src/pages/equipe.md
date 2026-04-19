@@ -33,7 +33,7 @@ import styles from './equipe.module.css';
   <h3>Nadine Poupon</h3>
   <p className={styles.memberAge}>65 ans</p>
   <p className={styles.memberJob}>Infirmière retraitée</p>
-  <p className={styles.memberEngagement}>Adjointe</p>
+  <p className={styles.memberEngagement}>1ère Adjointe</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -83,7 +83,7 @@ import styles from './equipe.module.css';
   <h3>Christine Fouqueteau</h3>
   <p className={styles.memberAge}>64 ans</p>
   <p className={styles.memberJob}>Retraitée de l'insertion professionnelle</p>
-  <p className={styles.memberEngagement}>Bénévole marché des marguerites</p>
+  <p className={styles.memberEngagement}>3ème Adjointe, Bénévole marché des marguerites</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -133,6 +133,7 @@ import styles from './equipe.module.css';
   <h3>Francis Le Baut</h3>
   <p className={styles.memberAge}>66 ans</p>
   <p className={styles.memberJob}>Retraité de l'agriculture</p>
+    <p className={styles.memberEngagement}>2ème Adjoint</p>
 </div>
 
 <div className={styles.memberCard}>
