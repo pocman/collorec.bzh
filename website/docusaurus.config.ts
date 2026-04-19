@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Collorec, terre de liens',
-  tagline: 'Élections municipales 2026',
+  title: 'Commune de Collorec',
+  tagline: 'Vie locale, services et agenda communal',
   favicon: 'img/logo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://2026.collorec.bzh',
+  url: 'https://collorec.bzh',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -87,14 +87,18 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Collorec, terre de liens',
+      title: 'Commune de Collorec',
       logo: {
         alt: 'Collorec Logo',
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/programme', label: 'Notre Programme', position: 'left'},
-        {to: '/equipe', label: 'L\'Équipe', position: 'left'},
+        {to: '/ape', label: 'APE', position: 'left'},
+        {to: '/marche-des-marguerites', label: 'Marché des Marguerites', position: 'left'},
+        {to: '/entreprises', label: 'Entreprises', position: 'left'},
+        {to: '/associations', label: 'Associations', position: 'left'},
+        {to: '/programme', label: 'Programme Municipal', position: 'right'},
+        {to: '/equipe', label: 'Équipe Municipale', position: 'right'},
         {
           href: 'https://www.facebook.com/profile.php?id=61588640097787',
           label: 'Facebook',
@@ -107,46 +111,54 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Notre Liste',
+          title: 'Vie Locale',
           items: [
             {
-              label: 'Notre Programme',
-              to: '/programme',
+              label: 'APE de Collorec',
+              to: '/ape',
             },
             {
-              label: 'L\'Équipe',
-              to: '/equipe',
+              label: 'Associations',
+              to: '/associations',
+            },
+            {
+              label: 'Entreprises',
+              to: '/entreprises',
             },
           ],
         },
         {
-          title: 'Collorec',
+          title: 'Commune',
           items: [
             {
-              label: 'Mairie de Collorec',
+              label: 'Page Facebook de la liste municipale',
+              href: 'https://www.facebook.com/people/Collorec-terre-de-liens/61588640097787/',
+            },
+            {
+              label: 'Page Facebook de la commune',
               href: 'https://www.facebook.com/p/Commune-de-Collorec-100064358790738/',
             },
             {
-              label: 'Finistère',
-              href: 'https://www.finistere.fr',
+              label: 'Site du département du Finistère',
+              href: 'https://www.finistere.fr/',
             },
+            {
+              label: 'Site de la Communauté de communes de Haute Cornouaille',
+              href: 'https://haute-cornouaille.bzh/',
+            }
           ],
         },
         {
-          title: 'Nous Suivre',
+          title: 'GitHub',
           items: [
             {
-              label: 'Facebook',
-              href: 'https://www.facebook.com/profile.php?id=61588640097787',
-            },
-            {
-              label: 'Contact',
-              to: '/contact',
+              label: 'Modifier cette page sur GitHub',
+              href: 'https://github.com/pocman/collorec.bzh/edit/main/website/',
             },
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Collorec, terre de liens - Élections municipales 2026`,
+      copyright: `© ${new Date().getFullYear()} Commune de Collorec`,
     },
     prism: {
       theme: prismThemes.github,

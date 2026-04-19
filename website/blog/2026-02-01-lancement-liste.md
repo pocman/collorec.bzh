@@ -1,47 +1,34 @@
 ---
-slug: lancement-liste-collorec-terre-de-liens
-title: Lancement de notre liste "Collorec, terre de liens"
+slug: lancement-site-communal-collorec
+title: Lancement du site communal de Collorec
 authors: [equipe]
 tags: [actualites, collorec]
 ---
 
-# Collorec, terre de liens - Élections municipales 2026
+# Lancement du site communal de Collorec
 
 Chers habitantes et habitants de Collorec,
 
-Nous avons le plaisir de vous annoncer la création de notre liste pour les élections municipales de 2026 : **"Collorec, terre de liens"**.
+Le site web communal évolue pour mieux centraliser les informations utiles à la vie locale.
 
 <!-- truncate -->
 
-## Pourquoi "terre de liens" ?
+## Ce qui change
 
-Notre commune, Collorec, est bien plus qu'un simple territoire géographique. C'est un lieu de vie où se tissent chaque jour des liens :
+Vous pouvez maintenant retrouver rapidement:
 
-- **Liens entre générations** : entre nos aînés porteurs de mémoire et notre jeunesse pleine d'avenir
-- **Liens avec notre terre** : notre patrimoine naturel, nos paysages, notre agriculture
-- **Liens entre voisins** : l'entraide, la solidarité qui caractérisent nos villages bretons
-- **Liens avec notre histoire** : notre patrimoine, notre langue, notre culture
+- Une page dédiée à l'APE de l'école de Collorec
+- Une page pour le Marché des Marguerites
+- Une page d'information pour les entreprises locales
+- Une page pour la vie associative
+- Un calendrier des activités avec téléchargement au format `.ics`
 
-## Notre ambition
+## Pourquoi ce nouveau format
 
-Nous souhaitons construire un projet municipal qui :
+L'objectif est de proposer un point d'entree clair pour les habitants, les associations, les entreprises et les visiteurs, avec des informations pratiques et mises a jour.
 
-1. **Préserve notre cadre de vie** tout en préparant l'avenir
-2. **Renforce les services de proximité** pour tous les habitants
-3. **Accompagne la transition écologique** de notre territoire
-4. **Soutient la vie associative et culturelle**
-5. **Développe l'économie locale** et l'attractivité de notre commune
+## Participer a la vie communale
 
-## Une équipe à votre écoute
+Vous pouvez proposer des informations, signaler une mise a jour ou partager une initiative locale depuis la page Contact.
 
-Notre liste rassemble des femmes et des hommes de tous horizons, unis par l'amour de Collorec et l'envie de s'engager pour notre commune.
-
-Nous viendrons à votre rencontre dans les semaines à venir pour échanger avec vous, écouter vos attentes et construire ensemble notre programme.
-
-## Restez informés
-
-Suivez nos actualités sur ce site et n'hésitez pas à nous contacter pour toute question ou suggestion.
-
-**Ensemble, faisons de Collorec une terre où il fait bon vivre !**
-
-*L'équipe Collorec, terre de liens*
+Merci a toutes les personnes qui contribuent a faire vivre la commune de Collorec au quotidien.

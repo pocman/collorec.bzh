@@ -1,56 +1,56 @@
 ---
-title: Lignes de Programme
-description: Découvrez le programme de la liste Collorec, terre de liens pour les élections municipales 2026
+title: Programme Municipal
+description: Les priorites de la commune de Collorec pour la vie locale
 hide_table_of_contents: true
 ---
 
-# Lignes de Programme
+# Programme Municipal
 
-**Notre vision pour Collorec : une commune unie, dynamique et solidaire**
-
----
-
-## 🏠 Habitat, Mobilité et Sécurité
-
-- Favoriser l'installation de nouveaux habitants
-- Développer une politique de logements locatifs adaptée
-- Entretien de la voirie et renforcement de la sécurité routière
-- Mettre en place un plan communal de sauvegarde
-- Activer la compétence communautaire « mobilité »
+**Une feuille de route pour une commune active, solidaire et a taille humaine.**
 
 ---
 
-## 🎒 Vie Scolaire
+## Habitat, mobilite et securite
 
-- Maintenir une école de qualité ainsi que le service périscolaire
-- Sécuriser et aménager les abords de l'école (signalétique, fresque, etc.)
-- Accompagner les projets pédagogiques (école en extérieur, potager, sorties éducatives, etc.)
-
----
-
-## 💼 Vie Économique
-
-- Extension du restaurant
-- Reprise du local communautaire dans le but d'y accueillir des associations, un commerce, etc.
-- Soutenir et valoriser les commerces et artisans locaux
-- Accompagner les agriculteurs (circuits courts, maintien des prairies, des haies, etc.)
+- Favoriser l'accueil de nouveaux habitants et de familles
+- Soutenir une offre de logements adaptée aux besoins locaux
+- Entretenir la voirie et renforcer la sécurité routière
+- Maintenir et actualiser le plan communal de sauvegarde
+- Travailler avec l'intercommunalité sur les solutions de mobilité
 
 ---
 
-## 🎭 Culture, Patrimoine et Loisirs
+## Vie scolaire
 
-- Créer une commission « Culture & Patrimoine » ouverte aux habitants
-- Valoriser le patrimoine communal (chapelles, église, calvaires, fontaines, plan d'eau, etc.)
-- Améliorer les équipements communaux (chapiteau, matériel son, éclairage, etc.)
-- Encourager les événements culturels et festifs pour tous les âges
-- Rénover la mairie et lui donner toute sa place comme maison commune (confidentialité, fonctionnalité, etc.)
+- Maintenir une école de qualité et des services périscolaires solides
+- Sécuriser et aménager les abords de l'école
+- Accompagner les projets pedagogiques et les actions de l'APE
 
 ---
 
-## 💬 Communication, Social et Solidarité
+## Vie economique
 
-- Instaurer une communication claire et régulière (site internet, Facebook, bulletin municipal, etc.)
-- Régulariser une permanence d'élus, notamment le samedi matin
-- Maintenir le service de l'agence postale communale
-- Renforcer le rôle du Centre Communal d'Action Sociale (CCAS)
-- Soutenir les associations, piliers du lien social
+- Soutenir les entreprises, artisans et exploitations agricoles locales
+- Faciliter les cooperations autour des circuits courts
+- Valoriser les commerces de proximite et les savoir-faire du territoire
+- Renforcer les temps de rencontre entre acteurs economiques
+
+---
+
+## Culture, patrimoine et loisirs
+
+- Consolider une dynamique culturelle ouverte a tous les publics
+- Mettre en valeur le patrimoine communal
+- Soutenir les initiatives festives et les associations locales
+- Moderniser les équipements communaux utiles aux manifestations
+- Renforcer la mairie comme lieu d'accueil et de service public
+
+---
+
+## Communication, social et solidarite
+
+- Maintenir une information régulière (site, réseaux, bulletin)
+- Organiser des permanences pour faciliter l'écoute des habitants
+- Préserver les services de proximité utiles au quotidien
+- Renforcer l'accompagnement social en lien avec le CCAS
+- Soutenir les associations, acteurs essentiels du lien communal

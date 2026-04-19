@@ -1,0 +1,82 @@
+.eventsContainer {
+  margin: 2rem 0;
+}
+
+.eventsTitle {
+  margin: 0 0 1.2rem 0;
+  font-size: 1.25rem;
+  color: #273d4a;
+}
+
+.eventsList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.eventItem {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1rem;
+  border: 1px solid #dec9a3;
+  transition: box-shadow 0.2s ease;
+}
+
+.eventItem:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.eventTag {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: #869c80;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.eventTitle {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2f434f;
+}
+
+.eventDate {
+  margin: 0.5rem 0 0;
+  color: #273d4a;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.eventPlace {
+  margin: 0.3rem 0 0;
+  color: #3f5561;
+  font-size: 0.9rem;
+}
+
+.eventDetails {
+  margin: 0.5rem 0 0;
+  color: #4f616a;
+  line-height: 1.55;
+  font-size: 0.9rem;
+}
+
+.noEvents {
+  background: #f0f4f8;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  color: #666;
+}
+
+.noEvents p {
+  margin: 0;
+  font-size: 1rem;
+}

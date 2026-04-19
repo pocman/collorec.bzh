@@ -1,45 +1,45 @@
 ---
 title: Contact
-description: Contactez la liste Collorec, terre de liens - Élections municipales 2026
+description: Contact et informations pour la vie communale à Collorec
 hide_table_of_contents: true
 ---
 
-# Nous Contacter
+# Contacter la commune
 
-**Une question ? Une idée ? Nous sommes à votre écoute !**
+**Une question sur la vie locale, un événement ou une activité? Nous sommes à votre écoute.**
 
 ---
 
 ## Restons en contact
 
-Nous sommes à votre disposition pour échanger sur notre programme, répondre à vos questions ou simplement vous rencontrer.
+La commune accompagne les habitants, associations, entreprises et partenaires pour les projets du quotidien.
 
-### 📧 Email
-**terre-de-liens@collorec.bzh**
-
----
-
-## Réunion Publique
-
-Venez échanger avec nous lors de la réunion publique. C'est l'occasion de découvrir notre programme, de poser vos questions et de partager vos idées pour Collorec.
-
-| Date  | Lieu | Horaire |
-|-------|------|---------|
-| 07/02 | Maison Pour Tous  | 11h     |
+### Email
+**mairie@collorec.bzh**
 
 ---
 
-## Envoyez-nous un message
+## Horaires d'accueil
 
-Pour nous contacter, envoyez-nous un email à **terre-de-liens@collorec.bzh** avec :
+Les permanences et réunions publiques sont annoncées sur la page d'accueil dans le calendrier des activités.
+
+| Service | Lieu | Information |
+|---------|------|-------------|
+| Accueil communal | Mairie de Collorec | Le Lundi : de 08h30 à 12h00 Du Mardi au Vendredi : de 08h30 à 12h00 de 13h30 à 17h00 |
+
+---
+
+## Votre message
+
+Pour faciliter le traitement de votre demande, merci de préciser :
 
 - Votre nom
-- Votre email
-- Le sujet de votre message (question sur le programme, rejoindre l'équipe, partager une idée, etc.)
+- Votre email ou numéro de téléphone
+- Le sujet de votre message (APE, marche, entreprises, associations, services communaux, autre)
 - Votre message
 
-Nous vous répondrons dans les meilleurs délais.
+Nous revenons vers vous dans les meilleurs délais.
 
 ---
 
-*Vos données sont utilisées uniquement pour vous répondre et ne sont pas partagées.*
+*Vos données sont utilisées uniquement pour répondre à votre demande.*

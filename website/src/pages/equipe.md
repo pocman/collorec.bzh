@@ -1,14 +1,14 @@
 ---
-title: Notre Équipe
-description: Découvrez les 17 candidats de la liste Collorec, terre de liens pour les élections municipales 2026
+title: Équipe Municipale
+description: Présentation des élus et acteurs engagés pour la commune de Collorec
 hide_table_of_contents: true
 ---
 
 import styles from './equipe.module.css';
 
-# Notre Équipe
+# Équipe Municipale
 
-**17 femmes et hommes engagés pour Collorec**
+**Des femmes et des hommes engagés pour la vie locale à Collorec**
 
 ![Notre liste complète](/img/team/liste.png)
 
@@ -23,7 +23,7 @@ import styles from './equipe.module.css';
   <h3>Georges Croguennec</h3>
   <p className={styles.memberAge}>68 ans</p>
   <p className={styles.memberJob}>Retraité de l'agriculture</p>
-  <p className={styles.memberEngagement}>Maire sortant</p>
+  <p className={styles.memberEngagement}>Maire</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -33,7 +33,7 @@ import styles from './equipe.module.css';
   <h3>Nadine Poupon</h3>
   <p className={styles.memberAge}>65 ans</p>
   <p className={styles.memberJob}>Infirmière retraitée</p>
-  <p className={styles.memberEngagement}>Adjointe sortante</p>
+  <p className={styles.memberEngagement}>Adjointe</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -73,7 +73,7 @@ import styles from './equipe.module.css';
   <h3>Fabienne Bourlès</h3>
   <p className={styles.memberAge}>36 ans</p>
   <p className={styles.memberJob}>Agricultrice</p>
-  <p className={styles.memberEngagement}>Présidente de l'APE Collorécoise, Conseillère sortante</p>
+  <p className={styles.memberEngagement}>Présidente de l'APE Collorécoise, Conseillère municipale</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -133,7 +133,7 @@ import styles from './equipe.module.css';
   <h3>Francis Le Baut</h3>
   <p className={styles.memberAge}>66 ans</p>
   <p className={styles.memberJob}>Retraité de l'agriculture</p>
-  <p className={styles.memberEngagement}>Conseiller sortant</p>
+  <p className={styles.memberEngagement}>Conseiller municipal</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -163,7 +163,7 @@ import styles from './equipe.module.css';
   <h3>Delphine Cochennec</h3>
   <p className={styles.memberAge}>38 ans</p>
   <p className={styles.memberJob}>Consultante en recrutement</p>
-  <p className={styles.memberEngagement}>Conseillère sortante</p>
+  <p className={styles.memberEngagement}>Conseillere municipale</p>
 </div>
 
 <div className={styles.memberCard}>

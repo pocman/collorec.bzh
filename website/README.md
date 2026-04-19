@@ -1,25 +1,49 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Ce site est construit avec [Docusaurus](https://docusaurus.io/).
 
 ## Installation
 
 ```bash
-yarn
+npm install
 ```
 
-## Local Development
+## Développement local
 
 ```bash
-yarn start
+npm run start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+## Build de production
 
 ```bash
-yarn build
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Mise à jour de l'agenda communal
+
+L'accueil affiche une liste d'événements, et le fichier iCalendar est téléchargeable.
+
+**Source unique de vérité :** Le fichier `src/data/events.json` contient les événements.
+
+Les deux emplacements à maintenir ensemble sont :
+
+- `src/data/events.json` (tableau d'événements)
+- `static/calendrier-collorec.ics` (export au format iCalendar)
+
+Règle de gestion recommandée :
+
+1. Ajouter ou modifier d'abord l'événement dans `src/data/events.json`
+   - `title` : titre de l'événement
+   - `startsAt` : date/heure ISO 8601 (ex: "2026-05-14T18:30:00+02:00")
+   - `place` : lieu de l'événement
+   - `details` : description courte
+   - `category` : catégorie (APE, Marche, Entreprises, Associations)
+
+2. Reporter la même information dans `static/calendrier-collorec.ics` :
+   - UID unique de la forme `{slug}-{date}@collorec.bzh`
+   - DTSTART/DTEND en UTC (Z)
+   - SUMMARY, LOCATION, DESCRIPTION
+   - Exemple : une date à 18:30 +02:00 devient 16:30 UTC
+
+3. Vérifier le rendu sur la page d'accueil et tester l'import du fichier `.ics` dans un client calendrier.

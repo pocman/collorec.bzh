@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Commune de Collorec//Agenda communal//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Agenda communal de Collorec
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+UID:ape-reunion-20260514@collorec.bzh
+DTSTAMP:20260419T080000Z
+DTSTART:20260514T163000Z
+DTEND:20260514T180000Z
+SUMMARY:Réunion de l'APE
+LOCATION:École de Collorec
+DESCRIPTION:Point sur les projets scolaires et préparation de la kermesse.
+END:VEVENT
+BEGIN:VEVENT
+UID:marche-marguerites-20260523@collorec.bzh
+DTSTAMP:20260419T080000Z
+DTSTART:20260523T070000Z
+DTEND:20260523T110000Z
+SUMMARY:Marché des Marguerites
+LOCATION:Plan d'eau
+DESCRIPTION:Producteurs locaux, artisanat et animations.
+END:VEVENT
+BEGIN:VEVENT
+UID:entreprises-rencontre-20260602@collorec.bzh
+DTSTAMP:20260419T080000Z
+DTSTART:20260602T170000Z
+DTEND:20260602T190000Z
+SUMMARY:Rencontre entreprises locales
+LOCATION:Maison Pour Tous
+DESCRIPTION:Temps d'échange entre entreprises, artisans et porteurs de projet.
+END:VEVENT
+BEGIN:VEVENT
+UID:forum-associations-20260612@collorec.bzh
+DTSTAMP:20260419T080000Z
+DTSTART:20260612T160000Z
+DTEND:20260612T183000Z
+SUMMARY:Forum des associations
+LOCATION:Salle communale
+DESCRIPTION:Présentation des associations et inscriptions pour la saison.
+END:VEVENT
+BEGIN:VEVENT
+UID:ape-kermesse-20260620@collorec.bzh
+DTSTAMP:20260419T080000Z
+DTSTART:20260620T120000Z
+DTEND:20260620T160000Z
+SUMMARY:Kermesse de l'école
+LOCATION:Cour de l'école
+DESCRIPTION:Jeux, tombola et spectacle des élèves.
+END:VEVENT
+END:VCALENDAR
