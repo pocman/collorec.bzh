@@ -63,7 +63,7 @@ import styles from './equipe.module.css';
   <h3>Jason Quenaon</h3>
   <p className={styles.memberAge}>35 ans</p>
   <p className={styles.memberJob}>Technicien de maintenance</p>
-  <p className={styles.memberEngagement}>Co-trésorier de l'APE Collorécoise</p>
+  <p className={styles.memberEngagement}>Trésorier de l'APE Collorécoise</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -73,7 +73,7 @@ import styles from './equipe.module.css';
   <h3>Fabienne Bourlès</h3>
   <p className={styles.memberAge}>36 ans</p>
   <p className={styles.memberJob}>Agricultrice</p>
-  <p className={styles.memberEngagement}>Présidente de l'APE Collorécoise, Conseillère municipale</p>
+  <p className={styles.memberEngagement}>Co-Présidente de l'APE Collorécoise</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -113,7 +113,7 @@ import styles from './equipe.module.css';
   <h3>Armel Barazer</h3>
   <p className={styles.memberAge}>33 ans</p>
   <p className={styles.memberJob}>Concepteur d'ouvrage hydraulique</p>
-  <p className={styles.memberEngagement}>Membre du CCAS, de Collorec en fête, du marché des marguerites, de Sourdel An Elez</p>
+  <p className={styles.memberEngagement}>Membre du CCAS, de Collorec en fête, du marché des marguerites, de Sourded An Elez</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -133,7 +133,6 @@ import styles from './equipe.module.css';
   <h3>Francis Le Baut</h3>
   <p className={styles.memberAge}>66 ans</p>
   <p className={styles.memberJob}>Retraité de l'agriculture</p>
-  <p className={styles.memberEngagement}>Conseiller municipal</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -143,7 +142,7 @@ import styles from './equipe.module.css';
   <h3>Céline Jouel</h3>
   <p className={styles.memberAge}>33 ans</p>
   <p className={styles.memberJob}>Ouvrière qualifiée</p>
-  <p className={styles.memberEngagement}>Co-trésorière de l'APE Collorécoise</p>
+  <p className={styles.memberEngagement}>Co-présidente de l'APE Collorécoise</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -163,7 +162,6 @@ import styles from './equipe.module.css';
   <h3>Delphine Cochennec</h3>
   <p className={styles.memberAge}>38 ans</p>
   <p className={styles.memberJob}>Consultante en recrutement</p>
-  <p className={styles.memberEngagement}>Conseillere municipale</p>
 </div>
 
 <div className={styles.memberCard}>
@@ -183,6 +181,16 @@ import styles from './equipe.module.css';
   <h3>Véronique Marchesseau</h3>
   <p className={styles.memberAge}>62 ans</p>
   <p className={styles.memberJob}>ASH à l'EHPAD de Plonévez-du-Faou</p>
+  <p className={styles.memberEngagement}></p>
+</div>
+
+<div className={styles.memberCard}>
+  <div className={styles.memberPhoto}>
+    <img src="/img/team/fabrice.png" alt="Fabrice Tonarelli" />
+  </div>
+  <h3>Fabrice Tonarelli</h3>
+  <p className={styles.memberAge}>38 ans</p>
+  <p className={styles.memberJob}>Professionnel de l’immobilier et artisan</p>
   <p className={styles.memberEngagement}></p>
 </div>
 

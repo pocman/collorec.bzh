@@ -27,7 +27,7 @@ La vie associative de Collorec contribue au lien social, à la solidarité et à
 - **Le Marché des Marguerites** - Circuit court et producteurs locaux
 - **Le collectif de Sainte Marguerite**
 - **L'APE Collorécoise** - Association des Parents d'Élèves
-- **Sourded an elez** - Promouvoir la culture bretonne lors d’événements festifs
+- **Sourded An Elez** - Promouvoir la culture bretonne lors d’événements festifs
 - **La Fédération de Chasse** - Loisir et gestion cynégétique
 
 ## Rejoindre ou créer une association

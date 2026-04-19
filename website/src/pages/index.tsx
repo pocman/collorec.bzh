@@ -155,10 +155,10 @@ function AgendaSection(): ReactNode {
             </p>
           </div>
           <div className={styles.agendaActions}>
-            <Link className="button button--primary button--lg" href="webcals://collorec.bzh/calendrier-collorec.ics">
+            <Link className="button button--primary button--lg" href="webcal://collorec.bzh/agenda.ics">
               S'abonner au calendrier
             </Link>
-            <Link className="button button--primary button--lg" href="pathname:///calendrier-collorec.ics">
+            <Link className="button button--primary button--lg" href="pathname:///agenda.ics">
               Télécharger le calendrier .ics
             </Link>
           </div>
