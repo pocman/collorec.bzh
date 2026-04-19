@@ -99,11 +99,6 @@ const config: Config = {
         {to: '/associations', label: 'Associations', position: 'left'},
         {to: '/programme', label: 'Programme Municipal', position: 'right'},
         {to: '/equipe', label: 'Équipe Municipale', position: 'right'},
-        {
-          href: 'https://www.facebook.com/profile.php?id=61588640097787',
-          label: 'Facebook',
-          position: 'right',
-        },
         {to: '/contact', label: 'Contact', position: 'right'},
       ],
     },

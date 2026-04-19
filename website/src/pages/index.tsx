@@ -156,10 +156,7 @@ function AgendaSection(): ReactNode {
           </div>
           <div className={styles.agendaActions}>
             <Link className="button button--primary button--lg" href="webcal://collorec.bzh/agenda.ics">
-              S'abonner au calendrier
-            </Link>
-            <Link className="button button--primary button--lg" href="pathname:///agenda.ics">
-              Télécharger le calendrier .ics
+              S'abonner à l'agenda
             </Link>
           </div>
         </div>
