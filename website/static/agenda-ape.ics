@@ -7,20 +7,34 @@ X-WR-CALNAME:Agenda APE de Collorec
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:ape-reunion-de-l-ape-20260602@collorec.bzh
-DTSTAMP:20260420T100752Z
+DTSTAMP:20260420T105309Z
 DTSTART:20260602T163000Z
 DTEND:20260602T183000Z
 SUMMARY:Réunion de l'APE
 LOCATION:École de Collorec
+GEO:48.283329;-3.783330
 DESCRIPTION:Point sur les projets scolaires
+URL:https://collorec.bzh/ape
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Réunion de l'APE
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ape-pot-de-fin-d-annee-scolaire-de-l-ape-20260630@collorec.bzh
-DTSTAMP:20260420T100752Z
+DTSTAMP:20260420T105309Z
 DTSTART:20260630T140000Z
 DTEND:20260630T160000Z
 SUMMARY:Pot de fin d'année scolaire de l'APE
 LOCATION:École de Collorec
+GEO:48.283329;-3.783330
 DESCRIPTION:Moment convivial pour clôturer l'année scolaire avec les familles et les enseignants.
+URL:https://collorec.bzh/ape
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Pot de fin d'année scolaire de l'APE
+END:VALARM
 END:VEVENT
 END:VCALENDAR

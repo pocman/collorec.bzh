@@ -24,6 +24,15 @@ const CALENDAR_OUTPUTS = [
   },
 ];
 
+const CATEGORY_URLS = {
+  APE: 'https://collorec.bzh/ape',
+  Marché: 'https://collorec.bzh/marche-des-marguerites',
+  Entreprises: 'https://collorec.bzh/entreprises',
+  Associations: 'https://collorec.bzh/associations',
+};
+
+const DEFAULT_GEO = '48.283329;-3.783330';
+
 function formatUtcDate(date) {
   const yyyy = date.getUTCFullYear();
   const mm = String(date.getUTCMonth() + 1).padStart(2, '0');
@@ -70,6 +79,9 @@ function toIcsEvent(event) {
     throw new Error(`Invalid endsAt date for event "${event.title}": ${event.endsAt}`);
   }
 
+  const eventUrl = event.url ?? CATEGORY_URLS[event.category];
+  const geo = event.geo ?? DEFAULT_GEO;
+
   return [
     'BEGIN:VEVENT',
     `UID:${buildUid(event, startDate)}`,
@@ -78,7 +90,14 @@ function toIcsEvent(event) {
     `DTEND:${formatUtcDate(endDate)}`,
     `SUMMARY:${escapeIcsText(event.title)}`,
     `LOCATION:${escapeIcsText(event.place)}`,
+    `GEO:${geo}`,
     `DESCRIPTION:${escapeIcsText(event.details)}`,
+    ...(eventUrl ? [`URL:${eventUrl}`] : []),
+    'BEGIN:VALARM',
+    'TRIGGER:-P1D',
+    'ACTION:DISPLAY',
+    `DESCRIPTION:Rappel : ${escapeIcsText(event.title)}`,
+    'END:VALARM',
     'END:VEVENT',
   ].join('\n');
 }
