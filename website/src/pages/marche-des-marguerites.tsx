@@ -49,7 +49,7 @@ export default function MarchePage(): ReactNode {
           <Heading as="h2">Informations pratiques</Heading>
           <ul style={{fontSize: '1rem', lineHeight: '1.8'}}>
             <li>Lieu : plan d'eau de Collorec</li>
-            <li>Horaires : tous les vendredi de 16h30 à 19h</li>
+            <li>Horaires : tous les vendredi de 16h00 à 19h30</li>
             <li>Organisation : habitants bénévoles et partenaires locaux</li>
           </ul>
 

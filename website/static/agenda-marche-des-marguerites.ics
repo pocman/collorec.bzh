@@ -6,12 +6,39 @@ METHOD:PUBLISH
 X-WR-CALNAME:Agenda Marche des Marguerites
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
-UID:marche-test-marche-des-marguerites-20260523@collorec.bzh
-DTSTAMP:20260420T075350Z
-DTSTART:20260523T070000Z
-DTEND:20260523T090000Z
-SUMMARY:[Test] Marché des Marguerites
-LOCATION:Plan d'eau
-DESCRIPTION:Producteurs locaux\, artisanat\, petite restauration et animations.
+UID:marche-marche-des-marguerites-fest-deiz-vide-grenier-20260501@collorec.bzh
+DTSTAMP:20260420T100752Z
+DTSTART:20260501T140000Z
+DTEND:20260501T180000Z
+SUMMARY:Marché des Marguerites – Fest Deiz & Vide grenier
+LOCATION:Plan d'eau de Collorec
+DESCRIPTION:Sonneurs et chanteurs du coin. Atelier initiation floral. Crêpes. Vide grenier (participation au stand 1€).
+END:VEVENT
+BEGIN:VEVENT
+UID:marche-marche-des-marguerites-gildas-et-flavi-lisa-vide-grenier-20260605@collorec.bzh
+DTSTAMP:20260420T100752Z
+DTSTART:20260605T140000Z
+DTEND:20260605T180000Z
+SUMMARY:Marché des Marguerites – Gildas et Flavi Lisa & Vide grenier
+LOCATION:Plan d'eau de Collorec
+DESCRIPTION:Chansons françaises et anglaises de 1938 à nos jours. Vide grenier (participation au stand 1€).
+END:VEVENT
+BEGIN:VEVENT
+UID:marche-marche-des-marguerites-la-gueule-des-fans-vide-grenier-20260703@collorec.bzh
+DTSTAMP:20260420T100752Z
+DTSTART:20260703T140000Z
+DTEND:20260703T180000Z
+SUMMARY:Marché des Marguerites – La Gueule des Fans & Vide grenier
+LOCATION:Plan d'eau de Collorec
+DESCRIPTION:Reprises pop folk rock\, chansons françaises. Vide grenier (participation au stand 1€).
+END:VEVENT
+BEGIN:VEVENT
+UID:marche-marche-des-marguerites-halby-s-brothers-vide-grenier-20260807@collorec.bzh
+DTSTAMP:20260420T100752Z
+DTSTART:20260807T140000Z
+DTEND:20260807T180000Z
+SUMMARY:Marché des Marguerites – Halby's Brothers & Vide grenier
+LOCATION:Plan d'eau de Collorec
+DESCRIPTION:Celtic Blues & Country. Vide grenier (participation au stand 1€).
 END:VEVENT
 END:VCALENDAR

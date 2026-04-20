@@ -6,17 +6,17 @@ METHOD:PUBLISH
 X-WR-CALNAME:Agenda communal de Collorec
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
-UID:marche-test-marche-des-marguerites-20260523@collorec.bzh
-DTSTAMP:20260420T075350Z
-DTSTART:20260523T070000Z
-DTEND:20260523T090000Z
-SUMMARY:[Test] Marché des Marguerites
-LOCATION:Plan d'eau
-DESCRIPTION:Producteurs locaux\, artisanat\, petite restauration et animations.
+UID:marche-marche-des-marguerites-fest-deiz-vide-grenier-20260501@collorec.bzh
+DTSTAMP:20260420T100752Z
+DTSTART:20260501T140000Z
+DTEND:20260501T180000Z
+SUMMARY:Marché des Marguerites – Fest Deiz & Vide grenier
+LOCATION:Plan d'eau de Collorec
+DESCRIPTION:Sonneurs et chanteurs du coin. Atelier initiation floral. Crêpes. Vide grenier (participation au stand 1€).
 END:VEVENT
 BEGIN:VEVENT
 UID:ape-reunion-de-l-ape-20260602@collorec.bzh
-DTSTAMP:20260420T075350Z
+DTSTAMP:20260420T100752Z
 DTSTART:20260602T163000Z
 DTEND:20260602T183000Z
 SUMMARY:Réunion de l'APE
@@ -24,30 +24,39 @@ LOCATION:École de Collorec
 DESCRIPTION:Point sur les projets scolaires
 END:VEVENT
 BEGIN:VEVENT
-UID:entreprises-test-rencontre-entreprises-locales-20260602@collorec.bzh
-DTSTAMP:20260420T075350Z
-DTSTART:20260602T170000Z
-DTEND:20260602T190000Z
-SUMMARY:[Test] Rencontre entreprises locales
-LOCATION:Maison Pour Tous
-DESCRIPTION:Temps d'échange entre entreprises\, artisans et porteurs de projet.
-END:VEVENT
-BEGIN:VEVENT
-UID:associations-test-forum-des-associations-20260612@collorec.bzh
-DTSTAMP:20260420T075350Z
-DTSTART:20260612T160000Z
-DTEND:20260612T180000Z
-SUMMARY:[Test] Forum des associations
-LOCATION:Salle communale
-DESCRIPTION:Présentation des associations et inscriptions pour la saison.
+UID:marche-marche-des-marguerites-gildas-et-flavi-lisa-vide-grenier-20260605@collorec.bzh
+DTSTAMP:20260420T100752Z
+DTSTART:20260605T140000Z
+DTEND:20260605T180000Z
+SUMMARY:Marché des Marguerites – Gildas et Flavi Lisa & Vide grenier
+LOCATION:Plan d'eau de Collorec
+DESCRIPTION:Chansons françaises et anglaises de 1938 à nos jours. Vide grenier (participation au stand 1€).
 END:VEVENT
 BEGIN:VEVENT
 UID:ape-pot-de-fin-d-annee-scolaire-de-l-ape-20260630@collorec.bzh
-DTSTAMP:20260420T075350Z
+DTSTAMP:20260420T100752Z
 DTSTART:20260630T140000Z
 DTEND:20260630T160000Z
 SUMMARY:Pot de fin d'année scolaire de l'APE
 LOCATION:École de Collorec
 DESCRIPTION:Moment convivial pour clôturer l'année scolaire avec les familles et les enseignants.
+END:VEVENT
+BEGIN:VEVENT
+UID:marche-marche-des-marguerites-la-gueule-des-fans-vide-grenier-20260703@collorec.bzh
+DTSTAMP:20260420T100752Z
+DTSTART:20260703T140000Z
+DTEND:20260703T180000Z
+SUMMARY:Marché des Marguerites – La Gueule des Fans & Vide grenier
+LOCATION:Plan d'eau de Collorec
+DESCRIPTION:Reprises pop folk rock\, chansons françaises. Vide grenier (participation au stand 1€).
+END:VEVENT
+BEGIN:VEVENT
+UID:marche-marche-des-marguerites-halby-s-brothers-vide-grenier-20260807@collorec.bzh
+DTSTAMP:20260420T100752Z
+DTSTART:20260807T140000Z
+DTEND:20260807T180000Z
+SUMMARY:Marché des Marguerites – Halby's Brothers & Vide grenier
+LOCATION:Plan d'eau de Collorec
+DESCRIPTION:Celtic Blues & Country. Vide grenier (participation au stand 1€).
 END:VEVENT
 END:VCALENDAR

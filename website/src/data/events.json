@@ -14,24 +14,35 @@
     "category": "APE"
   },
   {
-    "title": "[Test] Marché des Marguerites",
-    "startsAt": "2026-05-23T09:00:00+02:00",
-    "place": "Plan d'eau",
-    "details": "Producteurs locaux, artisanat, petite restauration et animations.",
+    "title": "Marché des Marguerites – Fest Deiz & Vide grenier",
+    "startsAt": "2026-05-01T16:00:00+02:00",
+    "endsAt": "2026-05-01T20:00:00+02:00",
+    "place": "Plan d'eau de Collorec",
+    "details": "Sonneurs et chanteurs du coin. Atelier initiation floral. Crêpes. Vide grenier (participation au stand 1€).",
     "category": "Marche"
   },
   {
-    "title": "[Test] Rencontre entreprises locales",
-    "startsAt": "2026-06-02T19:00:00+02:00",
-    "place": "Maison Pour Tous",
-    "details": "Temps d'échange entre entreprises, artisans et porteurs de projet.",
-    "category": "Entreprises"
+    "title": "Marché des Marguerites – Gildas et Flavi Lisa & Vide grenier",
+    "startsAt": "2026-06-05T16:00:00+02:00",
+    "endsAt": "2026-06-05T20:00:00+02:00",
+    "place": "Plan d'eau de Collorec",
+    "details": "Chansons françaises et anglaises de 1938 à nos jours. Vide grenier (participation au stand 1€).",
+    "category": "Marche"
   },
   {
-    "title": "[Test] Forum des associations",
-    "startsAt": "2026-06-12T18:00:00+02:00",
-    "place": "Salle communale",
-    "details": "Présentation des associations et inscriptions pour la saison.",
-    "category": "Associations"
+    "title": "Marché des Marguerites – La Gueule des Fans & Vide grenier",
+    "startsAt": "2026-07-03T16:00:00+02:00",
+    "endsAt": "2026-07-03T20:00:00+02:00",
+    "place": "Plan d'eau de Collorec",
+    "details": "Reprises pop folk rock, chansons françaises. Vide grenier (participation au stand 1€).",
+    "category": "Marche"
+  },
+  {
+    "title": "Marché des Marguerites – Halby's Brothers & Vide grenier",
+    "startsAt": "2026-08-07T16:00:00+02:00",
+    "endsAt": "2026-08-07T20:00:00+02:00",
+    "place": "Plan d'eau de Collorec",
+    "details": "Celtic Blues & Country. Vide grenier (participation au stand 1€).",
+    "category": "Marche"
   }
 ]
