@@ -77,6 +77,13 @@
   background: #fff;
 }
 
+.modalActions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
 .loadingText,
 .errorText {
   margin: 1rem 0;

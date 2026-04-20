@@ -68,12 +68,17 @@ function CalendarSubscribeButton({buttonLabel, webcalUrl, qrFileName}: CalendarS
             ) : qrDataUrl ? (
               <>
                 <img src={qrDataUrl} alt={`QR code abonnement calendrier: ${buttonLabel}`} className={styles.qrImage} />
-                <a className="button button--secondary button--lg" href={qrDataUrl} download={qrFileName}>
-                  Telecharger le QR code (PNG)
-                </a>
+                <div className={styles.modalActions}>
+                  <a className="button button--primary button--lg" href={webcalUrl}>
+                    S'abonner via webcal
+                  </a>
+                  <a className="button button--secondary button--lg" href={qrDataUrl} download={qrFileName}>
+                    Télécharger le QR code
+                  </a>
+                </div>
               </>
             ) : (
-              <p className={styles.loadingText}>Generation du QR code...</p>
+              <p className={styles.loadingText}>Génération du QR code...</p>
             )}
 
             <p className={styles.webcalLinkWrap}>
