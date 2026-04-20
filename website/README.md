@@ -42,7 +42,7 @@ Règle de gestion recommandée :
    - `endsAt` (optionnel) : date/heure ISO 8601 de fin
    - `place` : lieu de l'événement
    - `details` : description courte
-   - `category` : catégorie (APE, Marche, Entreprises, Associations)
+   - `category` : catégorie (APE, Marché, Entreprises, Associations)
 
 2. Lancer `npm run start` ou `npm run build` pour générer (ou régénérer) les fichiers `.ics`.
 

@@ -44,7 +44,7 @@ export default function MarchePage(): ReactNode {
               qrFileName="qr-agenda-marche-des-marguerites.png"
             />
           </p>
-          <EventsList category="Marche" title="Prochains marchés" />
+          <EventsList category="Marché" title="Prochains marchés" />
 
           <Heading as="h2">Informations pratiques</Heading>
           <ul style={{fontSize: '1rem', lineHeight: '1.8'}}>

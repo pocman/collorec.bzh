@@ -19,8 +19,8 @@ const CALENDAR_OUTPUTS = [
   },
   {
     fileName: 'agenda-marche-des-marguerites.ics',
-    calendarName: 'Agenda Marche des Marguerites',
-    categories: ['Marche'],
+    calendarName: 'Agenda Marché des Marguerites',
+    categories: ['Marché'],
   },
 ];
 

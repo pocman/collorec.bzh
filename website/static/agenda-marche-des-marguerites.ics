@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Commune de Collorec//Agenda communal//FR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Agenda Marche des Marguerites
+X-WR-CALNAME:Agenda Marché des Marguerites
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-fest-deiz-vide-grenier-20260501@collorec.bzh
