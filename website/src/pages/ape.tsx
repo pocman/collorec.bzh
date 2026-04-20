@@ -2,6 +2,7 @@ import type {ReactNode} from 'react';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import EventsList from '../components/EventsList';
+import CalendarSubscribeButton from '../components/CalendarSubscribeButton';
 
 export default function APEPage(): ReactNode {
   return (
@@ -34,7 +35,14 @@ export default function APEPage(): ReactNode {
           </ul>
 
           <Heading as="h2">Prochains rendez-vous</Heading>
-          <EventsList category="APE" title="Événements APE à venir" />
+          <p>
+            <CalendarSubscribeButton
+              buttonLabel="S'abonner à l'agenda de l'APE"
+              webcalUrl="webcal://collorec.bzh/agenda-ape.ics"
+              qrFileName="qr-agenda-ape.png"
+            />
+          </p>
+          <EventsList category="APE" title="Événements de l'APE à venir" />
 
           <Heading as="h2">Informations pratiques</Heading>
           <ul style={{fontSize: '1rem', lineHeight: '1.8'}}>

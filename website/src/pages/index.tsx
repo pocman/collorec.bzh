@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import CalendarSubscribeButton from '../components/CalendarSubscribeButton';
 
 import styles from './index.module.css';
 import agendaEvents from '../data/events.json';
@@ -155,9 +156,11 @@ function AgendaSection(): ReactNode {
             </p>
           </div>
           <div className={styles.agendaActions}>
-            <Link className="button button--primary button--lg" href="webcal://collorec.bzh/agenda.ics">
-              S'abonner au calendrier
-            </Link>
+              <CalendarSubscribeButton
+                buttonLabel="S'abonner à l'agenda communal"
+                webcalUrl="webcal://collorec.bzh/agenda.ics"
+                qrFileName="qr-agenda-communal.png"
+              />
           </div>
         </div>
         {nextEvents.length > 0 ? (

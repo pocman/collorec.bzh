@@ -3,9 +3,26 @@ import {resolve} from 'node:path';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const EVENTS_PATH = resolve(ROOT, 'src/data/events.json');
-const OUTPUT_PATH = resolve(ROOT, 'static/agenda.ics');
+const STATIC_DIR = resolve(ROOT, 'static');
 
 const DEFAULT_EVENT_DURATION_MINUTES = 120;
+
+const CALENDAR_OUTPUTS = [
+  {
+    fileName: 'agenda.ics',
+    calendarName: 'Agenda communal de Collorec',
+  },
+  {
+    fileName: 'agenda-ape.ics',
+    calendarName: 'Agenda APE de Collorec',
+    categories: ['APE'],
+  },
+  {
+    fileName: 'agenda-marche-des-marguerites.ics',
+    calendarName: 'Agenda Marche des Marguerites',
+    categories: ['Marche'],
+  },
+];
 
 function formatUtcDate(date) {
   const yyyy = date.getUTCFullYear();
@@ -66,6 +83,21 @@ function toIcsEvent(event) {
   ].join('\n');
 }
 
+function buildCalendar(events, calendarName) {
+  return [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//Commune de Collorec//Agenda communal//FR',
+    'CALSCALE:GREGORIAN',
+    'METHOD:PUBLISH',
+    `X-WR-CALNAME:${escapeIcsText(calendarName)}`,
+    'X-WR-TIMEZONE:Europe/Paris',
+    ...events.map(toIcsEvent),
+    'END:VCALENDAR',
+    '',
+  ].join('\n');
+}
+
 function main() {
   const eventsRaw = readFileSync(EVENTS_PATH, 'utf8');
   const events = JSON.parse(eventsRaw);
@@ -74,25 +106,19 @@ function main() {
     throw new Error('events.json must contain an array of events');
   }
 
-  const sortedEvents = [...events].sort(
-    (a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime(),
-  );
+  const sortedEvents = [...events].sort((a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime());
 
-  const calendar = [
-    'BEGIN:VCALENDAR',
-    'VERSION:2.0',
-    'PRODID:-//Commune de Collorec//Agenda communal//FR',
-    'CALSCALE:GREGORIAN',
-    'METHOD:PUBLISH',
-    'X-WR-CALNAME:Agenda communal de Collorec',
-    'X-WR-TIMEZONE:Europe/Paris',
-    ...sortedEvents.map(toIcsEvent),
-    'END:VCALENDAR',
-    '',
-  ].join('\n');
+  CALENDAR_OUTPUTS.forEach((output) => {
+    const selectedEvents = output.categories
+      ? sortedEvents.filter((event) => output.categories.includes(event.category))
+      : sortedEvents;
 
-  writeFileSync(OUTPUT_PATH, calendar, 'utf8');
-  console.log(`Generated ${OUTPUT_PATH} from ${EVENTS_PATH} (${sortedEvents.length} events)`);
+    const content = buildCalendar(selectedEvents, output.calendarName);
+    const outputPath = resolve(STATIC_DIR, output.fileName);
+    writeFileSync(outputPath, content, 'utf8');
+
+    console.log(`Generated ${outputPath} from ${EVENTS_PATH} (${selectedEvents.length} events)`);
+  });
 }
 
 main();

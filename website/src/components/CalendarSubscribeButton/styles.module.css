@@ -1,0 +1,100 @@
+.subscribeButtonGroup {
+  display: inline-flex;
+  align-items: center;
+}
+
+.subscribeMainButton {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.subscribeDropdownButton {
+  min-width: 2.6rem;
+  width: 2.6rem;
+  padding-left: 0;
+  padding-right: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.icon {
+  font-size: 1.15rem;
+  line-height: 1;
+  transform: translateY(-1px);
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 30, 36, 0.78);
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.modal {
+  width: min(100%, 620px);
+  max-height: 100%;
+  overflow: auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  padding: 1.25rem;
+  text-align: center;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border: 0;
+  background: transparent;
+  font-size: 1.8rem;
+  line-height: 1;
+  color: #33444e;
+  cursor: pointer;
+}
+
+.modalTitle {
+  margin: 0;
+  color: #273d4a;
+}
+
+.modalDescription {
+  margin: 0.6rem auto 0;
+  color: #4f616a;
+}
+
+.qrImage {
+  width: min(100%, 420px);
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid #ead7b7;
+  background: #fff;
+}
+
+.loadingText,
+.errorText {
+  margin: 1rem 0;
+  color: #33444e;
+}
+
+.errorText {
+  color: #9a2f2f;
+}
+
+.webcalLinkWrap {
+  margin: 1rem 0 0;
+  word-break: break-all;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+  .modal {
+    padding: 1rem 0.8rem;
+  }
+}

@@ -26,7 +26,13 @@ L'accueil affiche une liste d'événements, et le fichier iCalendar est téléch
 
 **Source unique de vérité :** Le fichier `src/data/events.json` contient les événements.
 
-Le fichier `static/agenda.ics` est généré automatiquement à partir de `src/data/events.json` lors du build.
+Les fichiers iCalendar suivants sont générés automatiquement à partir de `src/data/events.json`:
+
+- `static/agenda.ics` (agenda global)
+- `static/agenda-ape.ics` (agenda APE)
+- `static/agenda-marche-des-marguerites.ics` (agenda Marché des Marguerites)
+
+La génération est lancée automatiquement avant `npm run start` et `npm run build`.
 
 Règle de gestion recommandée :
 
@@ -38,6 +44,6 @@ Règle de gestion recommandée :
    - `details` : description courte
    - `category` : catégorie (APE, Marche, Entreprises, Associations)
 
-2. Lancer `npm run build` pour générer (ou régénérer) `static/agenda.ics`.
+2. Lancer `npm run start` ou `npm run build` pour générer (ou régénérer) les fichiers `.ics`.
 
 3. Vérifier le rendu sur la page d'accueil et tester l'import du fichier `.ics` dans un client calendrier.

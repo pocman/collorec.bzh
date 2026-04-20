@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Commune de Collorec//Agenda communal//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Agenda APE de Collorec
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+UID:ape-reunion-de-l-ape-20260602@collorec.bzh
+DTSTAMP:20260420T075350Z
+DTSTART:20260602T163000Z
+DTEND:20260602T183000Z
+SUMMARY:Réunion de l'APE
+LOCATION:École de Collorec
+DESCRIPTION:Point sur les projets scolaires
+END:VEVENT
+BEGIN:VEVENT
+UID:ape-pot-de-fin-d-annee-scolaire-de-l-ape-20260630@collorec.bzh
+DTSTAMP:20260420T075350Z
+DTSTART:20260630T140000Z
+DTEND:20260630T160000Z
+SUMMARY:Pot de fin d'année scolaire de l'APE
+LOCATION:École de Collorec
+DESCRIPTION:Moment convivial pour clôturer l'année scolaire avec les familles et les enseignants.
+END:VEVENT
+END:VCALENDAR

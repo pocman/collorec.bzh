@@ -2,6 +2,7 @@ import type {ReactNode} from 'react';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import EventsList from '../components/EventsList';
+import CalendarSubscribeButton from '../components/CalendarSubscribeButton';
 
 export default function MarchePage(): ReactNode {
   return (
@@ -36,6 +37,13 @@ export default function MarchePage(): ReactNode {
           </ul>
 
           <Heading as="h2">Prochaines dates</Heading>
+          <p>
+            <CalendarSubscribeButton
+              buttonLabel="S'abonner à l'agenda du marché"
+              webcalUrl="webcal://collorec.bzh/agenda-marche-des-marguerites.ics"
+              qrFileName="qr-agenda-marche-des-marguerites.png"
+            />
+          </p>
           <EventsList category="Marche" title="Prochains marchés" />
 
           <Heading as="h2">Informations pratiques</Heading>

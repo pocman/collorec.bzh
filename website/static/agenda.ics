@@ -6,17 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Agenda communal de Collorec
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
-UID:ape-test-reunion-de-l-ape-20260514@collorec.bzh
-DTSTAMP:20260419T123441Z
-DTSTART:20260514T163000Z
-DTEND:20260514T183000Z
-SUMMARY:[Test] Réunion de l'APE
-LOCATION:École de Collorec
-DESCRIPTION:Point sur les projets scolaires et préparation de la kermesse.
-END:VEVENT
-BEGIN:VEVENT
 UID:marche-test-marche-des-marguerites-20260523@collorec.bzh
-DTSTAMP:20260419T123441Z
+DTSTAMP:20260420T075350Z
 DTSTART:20260523T070000Z
 DTEND:20260523T090000Z
 SUMMARY:[Test] Marché des Marguerites
@@ -24,8 +15,17 @@ LOCATION:Plan d'eau
 DESCRIPTION:Producteurs locaux\, artisanat\, petite restauration et animations.
 END:VEVENT
 BEGIN:VEVENT
+UID:ape-reunion-de-l-ape-20260602@collorec.bzh
+DTSTAMP:20260420T075350Z
+DTSTART:20260602T163000Z
+DTEND:20260602T183000Z
+SUMMARY:Réunion de l'APE
+LOCATION:École de Collorec
+DESCRIPTION:Point sur les projets scolaires
+END:VEVENT
+BEGIN:VEVENT
 UID:entreprises-test-rencontre-entreprises-locales-20260602@collorec.bzh
-DTSTAMP:20260419T123441Z
+DTSTAMP:20260420T075350Z
 DTSTART:20260602T170000Z
 DTEND:20260602T190000Z
 SUMMARY:[Test] Rencontre entreprises locales
@@ -34,7 +34,7 @@ DESCRIPTION:Temps d'échange entre entreprises\, artisans et porteurs de projet.
 END:VEVENT
 BEGIN:VEVENT
 UID:associations-test-forum-des-associations-20260612@collorec.bzh
-DTSTAMP:20260419T123441Z
+DTSTAMP:20260420T075350Z
 DTSTART:20260612T160000Z
 DTEND:20260612T180000Z
 SUMMARY:[Test] Forum des associations
@@ -42,12 +42,12 @@ LOCATION:Salle communale
 DESCRIPTION:Présentation des associations et inscriptions pour la saison.
 END:VEVENT
 BEGIN:VEVENT
-UID:ape-test-kermesse-de-l-ecole-20260620@collorec.bzh
-DTSTAMP:20260419T123441Z
-DTSTART:20260620T120000Z
-DTEND:20260620T140000Z
-SUMMARY:[Test] Kermesse de l'école
-LOCATION:Cour de l'école
-DESCRIPTION:Jeux\, tombola et spectacle des élèves avec l'APE.
+UID:ape-pot-de-fin-d-annee-scolaire-de-l-ape-20260630@collorec.bzh
+DTSTAMP:20260420T075350Z
+DTSTART:20260630T140000Z
+DTEND:20260630T160000Z
+SUMMARY:Pot de fin d'année scolaire de l'APE
+LOCATION:École de Collorec
+DESCRIPTION:Moment convivial pour clôturer l'année scolaire avec les familles et les enseignants.
 END:VEVENT
 END:VCALENDAR
