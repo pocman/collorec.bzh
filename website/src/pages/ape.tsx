@@ -48,7 +48,7 @@ export default function APEPage(): ReactNode {
           <ul style={{fontSize: '1rem', lineHeight: '1.8'}}>
             <li>Réunions : consultez l'agenda ci-dessus</li>
             <li>Lieu principal : école de Collorec</li>
-            <li>Contact : <a href="mailto:fabienne@collorec.bzh">fabienne@collorec.bzh</a></li>
+            <li>Contact : <a href="mailto:ape.collorecoise@hotmail.com">ape.collorecoise@hotmail.com</a></li>
           </ul>
 
           <Heading as="h2">Participer</Heading>
