@@ -35,7 +35,7 @@ Pour faciliter le traitement de votre demande, merci de préciser :
 
 - Votre nom
 - Votre email ou numéro de téléphone
-- Le sujet de votre message (APE, marche, entreprises, associations, services communaux, autre)
+- Le sujet de votre message (APE, marché, entreprises, associations, services communaux, autre)
 - Votre message
 
 Nous revenons vers vous dans les meilleurs délais.

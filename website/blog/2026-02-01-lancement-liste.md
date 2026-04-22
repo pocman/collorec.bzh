@@ -25,10 +25,10 @@ Vous pouvez maintenant retrouver rapidement:
 
 ## Pourquoi ce nouveau format
 
-L'objectif est de proposer un point d'entree clair pour les habitants, les associations, les entreprises et les visiteurs, avec des informations pratiques et mises a jour.
+L'objectif est de proposer un point d'entrée clair pour les habitants, les associations, les entreprises et les visiteurs, avec des informations pratiques et mises à jour.
 
-## Participer a la vie communale
+## Participer à la vie communale
 
-Vous pouvez proposer des informations, signaler une mise a jour ou partager une initiative locale depuis la page Contact.
+Vous pouvez proposer des informations, signaler une mise à jour ou partager une initiative locale depuis la page Contact.
 
-Merci a toutes les personnes qui contribuent a faire vivre la commune de Collorec au quotidien.
+Merci à toutes les personnes qui contribuent à faire vivre la commune de Collorec au quotidien.
