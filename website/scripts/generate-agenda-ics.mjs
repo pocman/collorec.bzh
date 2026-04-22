@@ -16,11 +16,15 @@ const CALENDAR_OUTPUTS = [
     fileName: 'agenda-ape.ics',
     calendarName: 'Agenda APE de Collorec',
     categories: ['APE'],
+    organizerEmail: 'ape.collorecoise@hotmail.com',
+    defaultAddress: 'Rue de l\'École, 29530 Collorec',
   },
   {
     fileName: 'agenda-marche-des-marguerites.ics',
     calendarName: 'Agenda Marché des Marguerites',
     categories: ['Marché'],
+    organizerEmail: 'marchedesmarguerites@gmail.com',
+    defaultAddress: 'Le Plan d\'Eau, 29530 Collorec',
   },
 ];
 
@@ -65,7 +69,7 @@ function buildUid(event, startDate) {
   return `${slugify(event.category)}-${slugify(event.title)}-${dateKey}@collorec.bzh`;
 }
 
-function toIcsEvent(event) {
+function toIcsEvent(event, calendarOutput = {}) {
   const startDate = new Date(event.startsAt);
   if (Number.isNaN(startDate.getTime())) {
     throw new Error(`Invalid startsAt date for event "${event.title}": ${event.startsAt}`);
@@ -81,6 +85,9 @@ function toIcsEvent(event) {
 
   const eventUrl = event.url ?? CATEGORY_URLS[event.category];
   const geo = event.geo ?? DEFAULT_GEO;
+  const location = calendarOutput.defaultAddress
+    ? calendarOutput.defaultAddress
+    : (event.place ? event.place : "Collorec");
 
   return [
     'BEGIN:VEVENT',
@@ -89,10 +96,11 @@ function toIcsEvent(event) {
     `DTSTART:${formatUtcDate(startDate)}`,
     `DTEND:${formatUtcDate(endDate)}`,
     `SUMMARY:${escapeIcsText(event.title)}`,
-    `LOCATION:${escapeIcsText(event.place)}`,
+    `LOCATION:${escapeIcsText(location)}`,
     `GEO:${geo}`,
     `DESCRIPTION:${escapeIcsText(event.details)}`,
     ...(eventUrl ? [`URL:${eventUrl}`] : []),
+    ...(calendarOutput.organizerEmail ? [`ORGANIZER:mailto:${calendarOutput.organizerEmail}`] : []),
     'BEGIN:VALARM',
     'TRIGGER:-P1D',
     'ACTION:DISPLAY',
@@ -102,16 +110,16 @@ function toIcsEvent(event) {
   ].join('\n');
 }
 
-function buildCalendar(events, calendarName) {
+function buildCalendar(events, calendarOutput) {
   return [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
     'PRODID:-//Commune de Collorec//Agenda communal//FR',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    `X-WR-CALNAME:${escapeIcsText(calendarName)}`,
+    `X-WR-CALNAME:${escapeIcsText(calendarOutput.calendarName)}`,
     'X-WR-TIMEZONE:Europe/Paris',
-    ...events.map(toIcsEvent),
+    ...events.map((event) => toIcsEvent(event, calendarOutput)),
     'END:VCALENDAR',
     '',
   ].join('\n');
@@ -132,7 +140,7 @@ function main() {
       ? sortedEvents.filter((event) => output.categories.includes(event.category))
       : sortedEvents;
 
-    const content = buildCalendar(selectedEvents, output.calendarName);
+    const content = buildCalendar(selectedEvents, output);
     const outputPath = resolve(STATIC_DIR, output.fileName);
     writeFileSync(outputPath, content, 'utf8');
 

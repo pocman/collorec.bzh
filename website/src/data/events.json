@@ -2,14 +2,12 @@
   {
     "title": "Réunion de l'APE",
     "startsAt": "2026-06-02T18:30:00+02:00",
-    "place": "École de Collorec",
     "details": "Point sur les projets scolaires",
     "category": "APE"
   },
   {
     "title": "Pot de fin d'année scolaire de l'APE",
     "startsAt": "2026-06-30T16:00:00+02:00",
-    "place": "École de Collorec",
     "details": "Moment convivial pour clôturer l'année scolaire avec les familles et les enseignants.",
     "category": "APE"
   },
@@ -17,7 +15,6 @@
     "title": "Marché des Marguerites – Fest Deiz & Vide grenier",
     "startsAt": "2026-05-01T16:00:00+02:00",
     "endsAt": "2026-05-01T20:00:00+02:00",
-    "place": "Plan d'eau de Collorec",
     "details": "Sonneurs et chanteurs du coin. Atelier initiation floral. Crêpes. Vide grenier (participation au stand 1€).",
     "category": "Marché"
   },
@@ -25,7 +22,6 @@
     "title": "Marché des Marguerites – Gildas et Flavi Lisa & Vide grenier",
     "startsAt": "2026-06-05T16:00:00+02:00",
     "endsAt": "2026-06-05T20:00:00+02:00",
-    "place": "Plan d'eau de Collorec",
     "details": "Chansons françaises et anglaises de 1938 à nos jours. Vide grenier (participation au stand 1€).",
     "category": "Marché"
   },
@@ -33,7 +29,6 @@
     "title": "Marché des Marguerites – La Gueule des Fans & Vide grenier",
     "startsAt": "2026-07-03T16:00:00+02:00",
     "endsAt": "2026-07-03T20:00:00+02:00",
-    "place": "Plan d'eau de Collorec",
     "details": "Reprises pop folk rock, chansons françaises. Vide grenier (participation au stand 1€).",
     "category": "Marché"
   },
@@ -41,7 +36,6 @@
     "title": "Marché des Marguerites – Halby's Brothers & Vide grenier",
     "startsAt": "2026-08-07T16:00:00+02:00",
     "endsAt": "2026-08-07T20:00:00+02:00",
-    "place": "Plan d'eau de Collorec",
     "details": "Celtic Blues & Country. Vide grenier (participation au stand 1€).",
     "category": "Marché"
   }
