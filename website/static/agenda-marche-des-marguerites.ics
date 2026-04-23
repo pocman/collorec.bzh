@@ -7,7 +7,7 @@ X-WR-CALNAME:Agenda Marché des Marguerites
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-fest-deiz-vide-grenier-20260501@collorec.bzh
-DTSTAMP:20260422T125637Z
+DTSTAMP:20260423T191817Z
 DTSTART:20260501T140000Z
 DTEND:20260501T180000Z
 SUMMARY:Marché des Marguerites – Fest Deiz & Vide grenier
@@ -25,7 +25,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-gildas-et-flavi-lisa-vide-grenier-20260605@collorec.bzh
-DTSTAMP:20260422T125637Z
+DTSTAMP:20260423T191817Z
 DTSTART:20260605T140000Z
 DTEND:20260605T180000Z
 SUMMARY:Marché des Marguerites – Gildas et Flavi Lisa & Vide grenier
@@ -43,7 +43,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-la-gueule-des-fans-vide-grenier-20260703@collorec.bzh
-DTSTAMP:20260422T125637Z
+DTSTAMP:20260423T191817Z
 DTSTART:20260703T140000Z
 DTEND:20260703T180000Z
 SUMMARY:Marché des Marguerites – La Gueule des Fans & Vide grenier
@@ -61,7 +61,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-halby-s-brothers-vide-grenier-20260807@collorec.bzh
-DTSTAMP:20260422T125637Z
+DTSTAMP:20260423T191817Z
 DTSTART:20260807T140000Z
 DTEND:20260807T180000Z
 SUMMARY:Marché des Marguerites – Halby's Brothers & Vide grenier

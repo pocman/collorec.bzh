@@ -111,7 +111,7 @@ function toIcsEvent(event, calendarOutput = {}) {
   ].join('\n');
 }
 
-function buildCalendar(events, calendarOutput) {
+function buildCalendar(events, calendarOutput, getEventOutput = () => calendarOutput) {
   return [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
@@ -120,7 +120,7 @@ function buildCalendar(events, calendarOutput) {
     'METHOD:REQUEST',
     `X-WR-CALNAME:${escapeIcsText(calendarOutput.calendarName)}`,
     'X-WR-TIMEZONE:Europe/Paris',
-    ...events.map((event) => toIcsEvent(event, calendarOutput)),
+    ...events.map((event) => toIcsEvent(event, getEventOutput(event))),
     'END:VCALENDAR',
     '',
   ].join('\n');
@@ -136,12 +136,22 @@ function main() {
 
   const sortedEvents = [...events].sort((a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime());
 
+  const categoryOutputMap = Object.fromEntries(
+    CALENDAR_OUTPUTS
+      .filter((o) => o.categories)
+      .flatMap((o) => o.categories.map((cat) => [cat, o]))
+  );
+
   CALENDAR_OUTPUTS.forEach((output) => {
     const selectedEvents = output.categories
       ? sortedEvents.filter((event) => output.categories.includes(event.category))
       : sortedEvents;
 
-    const content = buildCalendar(selectedEvents, output);
+    const getEventOutput = output.categories
+      ? () => output
+      : (event) => categoryOutputMap[event.category] ?? output;
+
+    const content = buildCalendar(selectedEvents, output, getEventOutput);
     const outputPath = resolve(STATIC_DIR, output.fileName);
     writeFileSync(outputPath, content, 'utf8');
 

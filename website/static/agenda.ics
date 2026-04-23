@@ -7,14 +7,15 @@ X-WR-CALNAME:Agenda communal de Collorec
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-fest-deiz-vide-grenier-20260501@collorec.bzh
-DTSTAMP:20260422T125637Z
+DTSTAMP:20260423T191817Z
 DTSTART:20260501T140000Z
 DTEND:20260501T180000Z
 SUMMARY:Marché des Marguerites – Fest Deiz & Vide grenier
-LOCATION:Collorec
+LOCATION:Le Plan d'Eau\, 29530 Collorec
 GEO:48.283329;-3.783330
 DESCRIPTION:Sonneurs et chanteurs du coin. Atelier initiation floral. Crêpes. Vide grenier (participation au stand 1€).
 URL:https://collorec.bzh/marche-des-marguerites
+ORGANIZER:mailto:marchedesmarguerites@gmail.com
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-P1D
@@ -24,14 +25,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ape-reunion-de-l-ape-20260602@collorec.bzh
-DTSTAMP:20260422T125637Z
+DTSTAMP:20260423T191817Z
 DTSTART:20260602T163000Z
 DTEND:20260602T183000Z
 SUMMARY:Réunion de l'APE
-LOCATION:Collorec
+LOCATION:Rue de l'École\, 29530 Collorec
 GEO:48.283329;-3.783330
 DESCRIPTION:Point sur les projets scolaires
 URL:https://collorec.bzh/ape
+ORGANIZER:mailto:ape.collorecoise@hotmail.com
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-P1D
@@ -41,14 +43,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-gildas-et-flavi-lisa-vide-grenier-20260605@collorec.bzh
-DTSTAMP:20260422T125637Z
+DTSTAMP:20260423T191817Z
 DTSTART:20260605T140000Z
 DTEND:20260605T180000Z
 SUMMARY:Marché des Marguerites – Gildas et Flavi Lisa & Vide grenier
-LOCATION:Collorec
+LOCATION:Le Plan d'Eau\, 29530 Collorec
 GEO:48.283329;-3.783330
 DESCRIPTION:Chansons françaises et anglaises de 1938 à nos jours. Vide grenier (participation au stand 1€).
 URL:https://collorec.bzh/marche-des-marguerites
+ORGANIZER:mailto:marchedesmarguerites@gmail.com
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-P1D
@@ -58,14 +61,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ape-pot-de-fin-d-annee-scolaire-de-l-ape-20260630@collorec.bzh
-DTSTAMP:20260422T125637Z
+DTSTAMP:20260423T191817Z
 DTSTART:20260630T140000Z
 DTEND:20260630T160000Z
 SUMMARY:Pot de fin d'année scolaire de l'APE
-LOCATION:Collorec
+LOCATION:Rue de l'École\, 29530 Collorec
 GEO:48.283329;-3.783330
 DESCRIPTION:Moment convivial pour clôturer l'année scolaire avec les familles et les enseignants.
 URL:https://collorec.bzh/ape
+ORGANIZER:mailto:ape.collorecoise@hotmail.com
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-P1D
@@ -75,14 +79,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-la-gueule-des-fans-vide-grenier-20260703@collorec.bzh
-DTSTAMP:20260422T125637Z
+DTSTAMP:20260423T191817Z
 DTSTART:20260703T140000Z
 DTEND:20260703T180000Z
 SUMMARY:Marché des Marguerites – La Gueule des Fans & Vide grenier
-LOCATION:Collorec
+LOCATION:Le Plan d'Eau\, 29530 Collorec
 GEO:48.283329;-3.783330
 DESCRIPTION:Reprises pop folk rock\, chansons françaises. Vide grenier (participation au stand 1€).
 URL:https://collorec.bzh/marche-des-marguerites
+ORGANIZER:mailto:marchedesmarguerites@gmail.com
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-P1D
@@ -92,14 +97,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-halby-s-brothers-vide-grenier-20260807@collorec.bzh
-DTSTAMP:20260422T125637Z
+DTSTAMP:20260423T191817Z
 DTSTART:20260807T140000Z
 DTEND:20260807T180000Z
 SUMMARY:Marché des Marguerites – Halby's Brothers & Vide grenier
-LOCATION:Collorec
+LOCATION:Le Plan d'Eau\, 29530 Collorec
 GEO:48.283329;-3.783330
 DESCRIPTION:Celtic Blues & Country. Vide grenier (participation au stand 1€).
 URL:https://collorec.bzh/marche-des-marguerites
+ORGANIZER:mailto:marchedesmarguerites@gmail.com
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-P1D
