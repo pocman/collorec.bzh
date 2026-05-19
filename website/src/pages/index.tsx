@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import CalendarSubscribeButton from '../components/CalendarSubscribeButton';
+import CalendarModal from '../components/CalendarModal';
 
 import styles from './index.module.css';
 import agendaEvents from '../data/events.json';
@@ -161,6 +162,7 @@ function AgendaSection(): ReactNode {
                 webcalUrl="webcal://collorec.bzh/agenda.ics"
                 qrFileName="qr-agenda-communal.png"
               />
+              <CalendarModal buttonLabel="Voir l'agenda complet" />
           </div>
         </div>
         {nextEvents.length > 0 ? (

@@ -7,7 +7,7 @@ X-WR-CALNAME:Agenda communal de Collorec
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-fest-deiz-vide-grenier-20260501@collorec.bzh
-DTSTAMP:20260423T191817Z
+DTSTAMP:20260519T103703Z
 DTSTART:20260501T140000Z
 DTEND:20260501T180000Z
 SUMMARY:Marché des Marguerites – Fest Deiz & Vide grenier
@@ -25,7 +25,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ape-reunion-de-l-ape-20260602@collorec.bzh
-DTSTAMP:20260423T191817Z
+DTSTAMP:20260519T103703Z
 DTSTART:20260602T163000Z
 DTEND:20260602T183000Z
 SUMMARY:Réunion de l'APE
@@ -43,7 +43,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-gildas-et-flavi-lisa-vide-grenier-20260605@collorec.bzh
-DTSTAMP:20260423T191817Z
+DTSTAMP:20260519T103703Z
 DTSTART:20260605T140000Z
 DTEND:20260605T180000Z
 SUMMARY:Marché des Marguerites – Gildas et Flavi Lisa & Vide grenier
@@ -60,8 +60,26 @@ DESCRIPTION:Rappel : Marché des Marguerites – Gildas et Flavi Lisa & Vide gre
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:marche-marche-des-marguerites-jojolympiques-20260612@collorec.bzh
+DTSTAMP:20260519T103703Z
+DTSTART:20260612T140000Z
+DTEND:20260612T160000Z
+SUMMARY:Marché des Marguerites – JOJOlympiques
+LOCATION:Le Plan d'Eau\, 29530 Collorec
+GEO:48.283329;-3.783330
+DESCRIPTION:Organisés par l'association des Marguerites.
+URL:https://collorec.bzh/marche-des-marguerites
+ORGANIZER:mailto:marchedesmarguerites@gmail.com
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Marché des Marguerites – JOJOlympiques
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ape-pot-de-fin-d-annee-scolaire-de-l-ape-20260630@collorec.bzh
-DTSTAMP:20260423T191817Z
+DTSTAMP:20260519T103703Z
 DTSTART:20260630T140000Z
 DTEND:20260630T160000Z
 SUMMARY:Pot de fin d'année scolaire de l'APE
@@ -79,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-la-gueule-des-fans-vide-grenier-20260703@collorec.bzh
-DTSTAMP:20260423T191817Z
+DTSTAMP:20260519T103703Z
 DTSTART:20260703T140000Z
 DTEND:20260703T180000Z
 SUMMARY:Marché des Marguerites – La Gueule des Fans & Vide grenier
@@ -96,8 +114,58 @@ DESCRIPTION:Rappel : Marché des Marguerites – La Gueule des Fans & Vide greni
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:collorec-en-fete-fete-du-plan-d-eau-20260704@collorec.bzh
+DTSTAMP:20260519T103703Z
+DTSTART:20260704T170000Z
+DTEND:20260704T190000Z
+SUMMARY:Fête du plan d'eau
+LOCATION:Le Plan d'Eau\, 29530 Collorec
+GEO:48.283329;-3.783330
+DESCRIPTION:Organisée par Collorec en Fête.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Fête du plan d'eau
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:marche-marche-des-marguerites-off-du-fest-jazz-20260717@collorec.bzh
+DTSTAMP:20260519T103703Z
+DTSTART:20260717T140000Z
+DTEND:20260717T160000Z
+SUMMARY:Marché des Marguerites – OFF du Fest Jazz
+LOCATION:Le Plan d'Eau\, 29530 Collorec
+GEO:48.283329;-3.783330
+DESCRIPTION:Soirée jazz dans le cadre du OFF du Fest Jazz.
+URL:https://collorec.bzh/marche-des-marguerites
+ORGANIZER:mailto:marchedesmarguerites@gmail.com
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Marché des Marguerites – OFF du Fest Jazz
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:le-collectif-de-sainte-marguerite-pardon-de-sainte-marguerite-20260719@collorec.bzh
+DTSTAMP:20260519T103703Z
+DTSTART:20260719T140000Z
+DTEND:20260719T160000Z
+SUMMARY:Pardon de Sainte Marguerite
+LOCATION:Collorec
+GEO:48.283329;-3.783330
+DESCRIPTION:Pardon de Sainte Marguerite.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Pardon de Sainte Marguerite
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:marche-marche-des-marguerites-halby-s-brothers-vide-grenier-20260807@collorec.bzh
-DTSTAMP:20260423T191817Z
+DTSTAMP:20260519T103703Z
 DTSTART:20260807T140000Z
 DTEND:20260807T180000Z
 SUMMARY:Marché des Marguerites – Halby's Brothers & Vide grenier
@@ -111,6 +179,74 @@ BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
 DESCRIPTION:Rappel : Marché des Marguerites – Halby's Brothers & Vide grenier
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:le-collectif-de-sainte-marguerite-repas-crepes-et-concert-dans-la-chapelle-sainte-marguerite-20260812@collorec.bzh
+DTSTAMP:20260519T103703Z
+DTSTART:20260812T170000Z
+DTEND:20260812T190000Z
+SUMMARY:Repas crêpes et concert dans la chapelle Sainte Marguerite
+LOCATION:Collorec
+GEO:48.283329;-3.783330
+DESCRIPTION:Repas crêpes suivi d'un concert dans la chapelle Sainte Marguerite.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Repas crêpes et concert dans la chapelle Sainte Marguerite
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:marche-marche-des-marguerites-spectacle-de-theatre-20261011@collorec.bzh
+DTSTAMP:20260519T103703Z
+DTSTART:20261011T140000Z
+DTEND:20261011T160000Z
+SUMMARY:Marché des Marguerites – Spectacle de théâtre
+LOCATION:Le Plan d'Eau\, 29530 Collorec
+GEO:48.283329;-3.783330
+DESCRIPTION:Organisé par An Nor Digored.
+URL:https://collorec.bzh/marche-des-marguerites
+ORGANIZER:mailto:marchedesmarguerites@gmail.com
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Marché des Marguerites – Spectacle de théâtre
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ape-raclette-de-l-ape-collorecoise-20261017@collorec.bzh
+DTSTAMP:20260519T103703Z
+DTSTART:20261017T170000Z
+DTEND:20261017T190000Z
+SUMMARY:Raclette de l'APE Collorecoise
+LOCATION:Rue de l'École\, 29530 Collorec
+GEO:48.283329;-3.783330
+DESCRIPTION:Soirée raclette organisée par l'APE Collorecoise.
+URL:https://collorec.bzh/ape
+ORGANIZER:mailto:ape.collorecoise@hotmail.com
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Raclette de l'APE Collorecoise
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:collorec-en-fete-halloween-20261031@collorec.bzh
+DTSTAMP:20260519T103703Z
+DTSTART:20261031T170000Z
+DTEND:20261031T190000Z
+SUMMARY:Halloween
+LOCATION:La Maison Pour Tous\, Collorec
+GEO:48.283329;-3.783330
+DESCRIPTION:Organisé par Collorec en Fête.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Halloween
 END:VALARM
 END:VEVENT
 END:VCALENDAR

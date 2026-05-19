@@ -38,5 +38,57 @@
     "endsAt": "2026-08-07T20:00:00+02:00",
     "details": "Celtic Blues & Country. Vide grenier (participation au stand 1€).",
     "category": "Marché"
+  },
+  {
+    "title": "Marché des Marguerites – JOJOlympiques",
+    "startsAt": "2026-06-12T16:00:00+02:00",
+    "details": "Organisés par l'association des Marguerites.",
+    "category": "Marché"
+  },
+  {
+    "title": "Fête du plan d'eau",
+    "startsAt": "2026-07-04T19:00:00+02:00",
+    "details": "Organisée par Collorec en Fête.",
+    "place": "Le Plan d'Eau, 29530 Collorec",
+    "category": "Collorec en Fête"
+  },
+  {
+    "title": "Marché des Marguerites – OFF du Fest Jazz",
+    "startsAt": "2026-07-17T16:00:00+02:00",
+    "details": "Soirée jazz dans le cadre du OFF du Fest Jazz.",
+    "category": "Marché"
+  },
+  {
+    "title": "Pardon de Sainte Marguerite",
+    "startsAt": "2026-07-19T16:00:00+02:00",
+    "details": "Pardon de Sainte Marguerite.",
+    "lieu": "Chapelle Sainte Marguerite, Collorec",
+    "category": "Le collectif de Sainte Marguerite"
+  },
+  {
+    "title": "Repas crêpes et concert dans la chapelle Sainte Marguerite",
+    "startsAt": "2026-08-12T19:00:00+02:00",
+    "details": "Repas crêpes suivi d'un concert dans la chapelle Sainte Marguerite.",
+    "lieu": "Chapelle Sainte Marguerite, Collorec",
+    "category": "Le collectif de Sainte Marguerite"
+  },
+  {
+    "title": "Marché des Marguerites – Spectacle de théâtre",
+    "startsAt": "2026-10-11T16:00:00+02:00",
+    "details": "Organisé par An Nor Digored.",
+    "category": "Marché"
+  },
+  {
+    "title": "Raclette de l'APE Collorecoise",
+    "startsAt": "2026-10-17T19:00:00+02:00",
+    "details": "Soirée raclette organisée par l'APE Collorecoise.",
+    "category": "APE"
+  },
+  {
+    "title": "Halloween",
+    "startsAt": "2026-10-31T19:00:00+02:00",
+    "details": "Organisé par Collorec en Fête.",
+    "place": "La Maison Pour Tous, Collorec",
+    "category": "Collorec en Fête"
   }
 ]
