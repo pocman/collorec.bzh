@@ -92,7 +92,7 @@ function Hero(): ReactNode {
     <header className={styles.hero}>
       <div className="container">
         <div className={styles.heroLogoWrap}>
-          <img src="/img/logo.svg" alt="Logo de la commune de Collorec" className={styles.heroLogo} />
+          <img src="img/logo.svg" alt="Logo de la commune de Collorec" className={styles.heroLogo} />
         </div>
         <Heading as="h1" className={styles.heroTitle}>
           {siteConfig.title}
