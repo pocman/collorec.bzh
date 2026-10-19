@@ -72,6 +72,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Navbar customization */
 .navbar {
+  height: auto;
+  min-height: var(--ifm-navbar-height);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   background-color: var(--collorec-cream);
 }
