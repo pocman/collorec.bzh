@@ -61,6 +61,7 @@ Une cuisine faite maison, avec amour, pour apporter de la couleur, du partage et
 - Food truck événementiel pour les mariages, anniversaires, retours de noces, fêtes de famille et événements d’entreprise
 - Présence sur les marchés locaux, les festivals et les événements culturels
 
+**Contact :**
 - **Téléphone :** [07 67 05 48 99](tel:+33767054899)
 - **Site web :** [www.tikatika.fr](https://www.tikatika.fr)
 
