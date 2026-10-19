@@ -3,26 +3,210 @@
   padding-bottom: 2rem;
 }
 
-.carousel figure {
-  margin: 0;
+.carousel:focus {
+  outline: none;
 }
 
-.carousel img {
+.viewport {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  background: transparent;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.16);
+}
+
+.track {
+  display: flex;
+  will-change: transform;
+  transition: transform 420ms ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  margin: 0;
+  min-height: clamp(260px, 56vw, 560px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.slide img {
   display: block;
   width: 100%;
-  height: clamp(200px, 40vw, 450px);
-  object-fit: cover;
-  border-radius: 14px;
+  height: clamp(260px, 56vw, 560px);
+  object-fit: contain;
+  background: transparent;
 }
 
-.carousel figcaption {
-  padding: 0.75rem 0;
+.slide figcaption {
+  width: 100%;
+  margin: 0;
+  padding: 0.85rem 1rem 1rem;
+  color: rgba(255, 255, 255, 0.92);
+  text-align: center;
+  font-size: 0.98rem;
 }
 
-.controls {
+.navButton,
+.fullscreenButton,
+.closeButton {
+  border: none;
+  cursor: pointer;
+  transition: transform 160ms ease, background-color 160ms ease, opacity 160ms ease;
+}
+
+.navButton {
+  position: absolute;
+  top: 50%;
+  width: 3.1rem;
+  height: 3.1rem;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: rgba(12, 18, 29, 0.62);
+  color: #ffffff;
+  font-size: 2.2rem;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  z-index: 2;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+.navButton:hover,
+.navButton:focus-visible {
+  transform: translateY(-50%) scale(1.04);
+  background: rgba(12, 18, 29, 0.82);
+}
+
+.fullscreenButton:hover,
+.fullscreenButton:focus-visible,
+.closeButton:hover,
+.closeButton:focus-visible {
+  transform: scale(1.04);
+  background: rgba(12, 18, 29, 0.82);
+}
+
+.navButtonPrev {
+  left: 0.75rem;
+}
+
+.navButtonNext {
+  right: 0.75rem;
+}
+
+.fullscreenButton {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 2;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(12, 18, 29, 0.62);
+  color: #ffffff;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+.counter {
+  position: absolute;
+  left: 50%;
+  bottom: 0.75rem;
+  z-index: 2;
+  transform: translateX(-50%);
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(12, 18, 29, 0.72);
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.hint {
+  margin-top: 0.75rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.fullscreenDialog {
+  width: min(96vw, 1200px);
+  height: min(96vh, 900px);
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.fullscreenDialog::backdrop {
+  background: rgba(8, 12, 20, 0.84);
+  backdrop-filter: blur(5px);
+}
+
+.fullscreenShell {
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.fullscreenShell .viewport {
+  flex: 1;
+  border-radius: 18px;
+  background: rgba(8, 12, 20, 0.96);
+}
+
+.fullscreenShell .slide {
+  min-height: 0;
+  height: 100%;
+  background: transparent;
+}
+
+.fullscreenShell .slide img {
+  height: 100%;
+  background: transparent;
+}
+
+.fullscreenShell .slide figcaption {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.closeButton {
+  align-self: flex-end;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 999px;
+  background: rgba(12, 18, 29, 0.72);
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+}
+
+.fullscreenCaption {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 0.98rem;
+}
+
+@media (max-width: 768px) {
+  .slide {
+    min-height: clamp(220px, 72vw, 420px);
+  }
+
+  .slide img {
+    height: clamp(220px, 72vw, 420px);
+  }
+
+  .navButton {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  .fullscreenButton {
+    padding-inline: 0.75rem;
+  }
 }

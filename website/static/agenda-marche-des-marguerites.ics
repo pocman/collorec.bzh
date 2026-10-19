@@ -7,7 +7,7 @@ X-WR-CALNAME:Agenda Marché des Marguerites
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-fest-deiz-vide-grenier-20260501@collorec.bzh
-DTSTAMP:20261019T132738Z
+DTSTAMP:20261019T134409Z
 DTSTART:20260501T140000Z
 DTEND:20260501T180000Z
 SUMMARY:Marché des Marguerites – Fest Deiz & Vide grenier
@@ -25,7 +25,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-gildas-et-flavi-lisa-vide-grenier-20260605@collorec.bzh
-DTSTAMP:20261019T132738Z
+DTSTAMP:20261019T134409Z
 DTSTART:20260605T140000Z
 DTEND:20260605T180000Z
 SUMMARY:Marché des Marguerites – Gildas et Flavi Lisa & Vide grenier
@@ -43,7 +43,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-jojolympiques-20260612@collorec.bzh
-DTSTAMP:20261019T132738Z
+DTSTAMP:20261019T134409Z
 DTSTART:20260612T140000Z
 DTEND:20260612T160000Z
 SUMMARY:Marché des Marguerites – JOJOlympiques
@@ -61,7 +61,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-la-gueule-des-fans-vide-grenier-20260703@collorec.bzh
-DTSTAMP:20261019T132738Z
+DTSTAMP:20261019T134409Z
 DTSTART:20260703T140000Z
 DTEND:20260703T180000Z
 SUMMARY:Marché des Marguerites – La Gueule des Fans & Vide grenier
@@ -79,7 +79,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-off-du-fest-jazz-20260717@collorec.bzh
-DTSTAMP:20261019T132738Z
+DTSTAMP:20261019T134409Z
 DTSTART:20260717T140000Z
 DTEND:20260717T160000Z
 SUMMARY:Marché des Marguerites – OFF du Fest Jazz
@@ -97,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-halby-s-brothers-vide-grenier-20260807@collorec.bzh
-DTSTAMP:20261019T132738Z
+DTSTAMP:20261019T134409Z
 DTSTART:20260807T140000Z
 DTEND:20260807T180000Z
 SUMMARY:Marché des Marguerites – Halby's Brothers & Vide grenier
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-spectacle-de-theatre-20261011@collorec.bzh
-DTSTAMP:20261019T132738Z
+DTSTAMP:20261019T134409Z
 DTSTART:20261011T140000Z
 DTEND:20261011T160000Z
 SUMMARY:Marché des Marguerites – Spectacle de théâtre
@@ -133,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marche-marche-des-marguerites-4e-marche-de-noel-20261127@collorec.bzh
-DTSTAMP:20261019T132738Z
+DTSTAMP:20261019T134409Z
 DTSTART:20261127T150000Z
 DTEND:20261127T200000Z
 SUMMARY:Marché des Marguerites – 4e marché de Noël

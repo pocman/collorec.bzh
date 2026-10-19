@@ -60,6 +60,10 @@ Les photographies de Collorec sont affichées dans le carrousel sous le bandeau
 d’accueil. Elles sont stockées dans `static/img/carousel/` et déclarées dans
 `src/data/municipalMedia.ts`.
 
+Le carrousel utilise une navigation par flèches, un compteur de position et un
+mode plein écran pour se rapprocher du rendu des galeries de projet du site
+Facettes.
+
 La page `/bulletin-municipal` affiche le bulletin du 3e trimestre, disponible
 dans `static/260909_BM_3emetrimestre.pdf`, et propose son téléchargement.
 

@@ -1,10 +1,13 @@
 import type {ReactNode} from 'react';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import EventsList from '../components/EventsList';
 import CalendarSubscribeButton from '../components/CalendarSubscribeButton';
 
 export default function APEPage(): ReactNode {
+  const bureauPhoto = useBaseUrl('/img/ape/bureau-2026.jpg');
+
   return (
     <Layout
       title="APE Collorécoise"
@@ -16,6 +19,21 @@ export default function APEPage(): ReactNode {
           <p style={{fontSize: '1.1rem', lineHeight: '1.7'}}>
             L'Association des Parents d'Élèves accompagne l'école dans ses projets et organise des actions pour soutenir les activités des enfants.
           </p>
+
+          <figure style={{margin: '1.5rem 0 2rem'}}>
+            <img
+              src={bureauPhoto}
+              alt="Le bureau de l'APE collorecoise"
+              style={{
+                display: 'block',
+                width: '100%',
+                maxWidth: '980px',
+                height: 'auto',
+                borderRadius: '18px',
+                boxShadow: '0 12px 28px rgba(0, 0, 0, 0.14)',
+              }}
+            />
+          </figure>
 
           <Heading as="h2">Missions principales</Heading>
           <ul style={{fontSize: '1rem', lineHeight: '1.8'}}>
@@ -29,8 +47,8 @@ export default function APEPage(): ReactNode {
             C'est avec plaisir que nous vous annonçons l'élection de notre nouvelle équipe pour cette année :
           </p>
           <ul style={{fontSize: '1rem', lineHeight: '1.8'}}>
-            <li><strong>Co-présidentes :</strong> Fabienne Bourlès et Céline Jouel</li>
-            <li><strong>Co-secrétaires :</strong> Yolande Noire et Pauline Sergent</li>
+            <li><strong>Co-présidentes :</strong> Céline Jouel et Léna Rannou</li>
+            <li><strong>Co-secrétaires :</strong> Pauline Sergent</li>
             <li><strong>Trésorier :</strong> Jason Quenaon</li>
           </ul>
 
