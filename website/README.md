@@ -50,17 +50,21 @@ Règle de gestion recommandée :
 
 ## Bulletin municipal et photographies de Collorec
 
-La page `/bulletin-municipal` et les emplacements de la bannière et du carrousel
-sont prêts. Le dernier bulletin trimestriel et les photographies de paysage ne
-sont pas fournis dans le dépôt. Ne pas les remplacer par des documents fictifs.
+Les photographies de Collorec sont affichées dans le carrousel sous le bandeau
+d’accueil. Elles sont stockées dans `static/img/carousel/` et déclarées dans
+`src/data/municipalMedia.ts`.
 
-Pour les publier, déposer le PDF dans `static/bulletins/` et les photos autorisées
-dans `static/img/collorec/`, puis renseigner `src/data/municipalMedia.ts` :
+La page `/bulletin-municipal` affiche le bulletin du 3e trimestre, disponible
+dans `static/260909_BM_3emetrimestre.pdf`, et propose son téléchargement.
+
+Pour publier le bulletin ou ajouter des photos, déposer le PDF dans
+`static/` et les photos autorisées dans `static/img/carousel/`, puis
+renseigner `src/data/municipalMedia.ts` :
 
 ```ts
 export const landscapePhotos: LandscapePhoto[] = [
   {
-    src: '/img/collorec/paysage.jpg',
+    src: '/img/carousel/paysage.jpg',
     alt: 'Description du paysage de Collorec photographié',
     credit: 'Nom du photographe — autorisation ou licence',
   },
@@ -69,13 +73,12 @@ export const landscapePhotos: LandscapePhoto[] = [
 
 export const municipalBulletin: {title: string; file: string} | null = {
   title: 'Bulletin municipal — trimestre et année',
-  file: '/bulletins/dernier-bulletin.pdf',
+  file: '/260909_BM_3emetrimestre.pdf',
 };
 ```
 
-La première photo sert de paysage pour la bannière ; toutes les photos figurent
-dans le carrousel sous le bandeau d’accueil. Renseigner une description et le
+Les photos figurent uniquement dans le carrousel sous le bandeau d’accueil. Renseigner une description et le
 crédit de chaque photo, et vérifier les droits de publication avant tout ajout.
 Les chemins sont relatifs à `static/`, sans le préfixe de déploiement GitHub Pages.
-Sans photo, le bandeau conserve son fond actuel et le carrousel reste masqué.
+Sans photo, le carrousel reste masqué.
 Sans PDF, la page du bulletin affiche un message d’attente sans lien cassé.

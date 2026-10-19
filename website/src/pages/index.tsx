@@ -6,7 +6,6 @@ import Heading from '@theme/Heading';
 import CalendarSubscribeButton from '../components/CalendarSubscribeButton';
 import CalendarModal from '../components/CalendarModal';
 import PhotoCarousel from '../components/PhotoCarousel';
-import {landscapePhotos} from '../data/municipalMedia';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import styles from './index.module.css';
@@ -78,14 +77,10 @@ function getNextEventsByCategory(): EventItem[] {
 
 function Hero(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
-  const landscapeUrl = useBaseUrl(landscapePhotos[0]?.src ?? '/img/logo.svg');
   const logoUrl = useBaseUrl('/img/logo.svg');
 
   return (
     <header className={styles.hero}>
-      {landscapePhotos.length > 0 && (
-        <img className={styles.heroLandscape} src={landscapeUrl} alt={landscapePhotos[0].alt} />
-      )}
       <div className={`container ${styles.heroContent}`}>
         <div className={styles.heroLogoWrap}>
           <img src={logoUrl} alt="Logo de la commune de Collorec" className={styles.heroLogo} />

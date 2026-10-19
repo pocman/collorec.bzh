@@ -90,5 +90,39 @@
     "details": "Organisé par Collorec en Fête.",
     "place": "La Maison Pour Tous, Collorec",
     "category": "Collorec en Fête"
+  },
+  {
+    "title": "Célébration de la Toussaint",
+    "startsAt": "2026-11-01T14:30:00+02:00",
+    "place": "Église, Collorec"
+  },
+  {
+    "title": "Bal swing avec Dardoup Swing",
+    "startsAt": "2026-11-08T17:00:00+01:00",
+    "place": "La Maison Pour Tous, Collorec",
+    "details": "Atelier gratuit d’initiation au swing à 17 h, puis bal swing animé par Dardoup Swing à 18 h. Entrée au bal : 8 €, gratuit pour les moins de 16 ans et 5 € pour les 16–25 ans. Crêpes et boissons sur place.",
+    "category": "Associations"
+  },
+  {
+    "title": "Théâtre – Bienvenue dans l’immeuble",
+    "startsAt": "2026-11-15T14:30:00+01:00",
+    "place": "La Maison Pour Tous, Collorec",
+    "details": "L’association théâtrale AMITHÉA de Pont-de-Buis présente « Bienvenue dans l’immeuble », une comédie d’Yvon Tarudet autour de quiproquos entre voisins. Entrée libre avec participation au chapeau. Café et gâteaux à l’entracte.",
+    "category": "Associations"
+  },
+  {
+    "title": "Marché des Marguerites – 4e marché de Noël",
+    "startsAt": "2026-11-27T16:00:00+01:00",
+    "endsAt": "2026-11-27T21:00:00+01:00",
+    "place": "Le Plan d’Eau, 29530 Collorec",
+    "details": "Le Marché des Marguerites organise son 4e marché de Noël : musique, animations pour les enfants, artisans et créateurs. Quelques places sont encore disponibles pour les créateurs et créatrices. Contact : broceliande2@hotmail.fr.",
+    "category": "Marché"
+  },
+  {
+    "title": "Spectacle de théâtre d’improvisation",
+    "startsAt": "2026-12-05T20:00:00+01:00",
+    "place": "La Maison Pour Tous, Collorec",
+    "details": "Spectacle de théâtre d’improvisation organisé par la commission culture. Entrée libre. Buvette sur place.",
+    "category": "Associations"
   }
 ]

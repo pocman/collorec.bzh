@@ -111,6 +111,10 @@ const config: Config = {
               to: '/ape',
             },
             {
+              label: 'Marché des Marguerites',
+              to: '/marche-des-marguerites',
+            },
+            {
               label: 'Les associations collorecoises',
               to: '/associations',
             },

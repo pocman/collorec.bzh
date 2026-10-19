@@ -15,7 +15,7 @@ hide_table_of_contents: true
 La commune accompagne les habitants, associations, entreprises et partenaires pour les projets du quotidien.
 
 ### Email
-**mairie@collorec.bzh**
+**mairie.collorec@wanadoo.fr**
 
 ---
 
