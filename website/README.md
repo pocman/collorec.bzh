@@ -44,6 +44,12 @@ Règle de gestion recommandée :
    - `details` : description courte
    - `category` : catégorie (APE, Marché, Entreprises, Associations)
 
+Les champs `title`, `startsAt`, `details` et `category` sont obligatoires et
+doivent être des chaînes non vides. Le générateur vérifie ces champs et les
+dates avant d’écrire les calendriers ; en cas d’erreur, il indique l’événement
+et le champ concernés. Utiliser le décalage horaire de Paris à la date de
+l’événement (`+01:00` en hiver, `+02:00` en été).
+
 2. Lancer `npm run start` ou `npm run build` pour générer (ou régénérer) les fichiers `.ics`.
 
 3. Vérifier le rendu sur la page d'accueil et tester l'import du fichier `.ics` dans un client calendrier.

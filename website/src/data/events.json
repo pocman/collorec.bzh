@@ -93,8 +93,10 @@
   },
   {
     "title": "Célébration de la Toussaint",
-    "startsAt": "2026-11-01T14:30:00+02:00",
-    "place": "Église, Collorec"
+    "startsAt": "2026-11-01T14:30:00+01:00",
+    "place": "Église, Collorec",
+    "details": "Célébration de la Toussaint à l’église de Collorec.",
+    "category": "Associations"
   },
   {
     "title": "Bal swing avec Dardoup Swing",
