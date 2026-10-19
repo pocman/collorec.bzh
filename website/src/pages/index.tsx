@@ -5,6 +5,8 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import CalendarSubscribeButton from '../components/CalendarSubscribeButton';
 import CalendarModal from '../components/CalendarModal';
+import PhotoCarousel from '../components/PhotoCarousel';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import styles from './index.module.css';
 import agendaEvents from '../data/events.json';
@@ -26,28 +28,16 @@ type EventItem = {
 
 const sectionCards: SectionCard[] = [
   {
-    title: 'APE de l\'école',
-    description: 'Retrouvez les informations de l\'association des parents d\'élèves, les actions en cours et les rendez-vous de l\'école.',
-    to: '/ape',
-    cta: 'Voir la page APE',
-  },
-  {
-    title: 'Marché des Marguerites',
-    description: 'Consultez les prochains marchés, les producteurs présents et les initiatives autour des circuits courts à Collorec.',
-    to: '/marche-des-marguerites',
-    cta: 'Voir le marché',
-  },
-  {
     title: 'Entreprises de Collorec',
     description: 'Découvrez les artisans, commerces, exploitations et services qui font vivre l\'économie locale.',
     to: '/entreprises',
     cta: 'Voir les entreprises',
   },
   {
-    title: 'Associations',
-    description: 'Explorez la vie associative de la commune : culture, sport, solidarité et initiatives citoyennes.',
+    title: 'Les associations collorecoises',
+    description: 'Explorez la vie associative de la commune : culture, sport, solidarité et initiatives citoyennes.',
     to: '/associations',
-    cta: 'Voir les associations',
+    cta: 'Découvrir les associations collorecoises',
   },
 ];
 
@@ -87,12 +77,13 @@ function getNextEventsByCategory(): EventItem[] {
 
 function Hero(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+  const logoUrl = useBaseUrl('/img/logo.svg');
 
   return (
     <header className={styles.hero}>
-      <div className="container">
+      <div className={`container ${styles.heroContent}`}>
         <div className={styles.heroLogoWrap}>
-          <img src="img/logo.svg" alt="Logo de la commune de Collorec" className={styles.heroLogo} />
+          <img src={logoUrl} alt="Logo de la commune de Collorec" className={styles.heroLogo} />
         </div>
         <Heading as="h1" className={styles.heroTitle}>
           {siteConfig.title}
@@ -106,8 +97,11 @@ function Hero(): ReactNode {
           <Link className="button button--primary button--lg" to="/contact">
             Contacter la commune
           </Link>
-          <Link className="button button--secondary button--lg" to="/programme">
-            Lire le programme municipal
+          <Link className="button button--secondary button--lg" to="/equipe">
+            Découvrir l’équipe municipale
+          </Link>
+          <Link className="button button--secondary button--lg" to="/bulletin-municipal">
+            Lire le dernier bulletin municipal
           </Link>
         </div>
       </div>
@@ -123,7 +117,7 @@ function LocalSections(): ReactNode {
           Vie locale à Collorec
         </Heading>
         <p className={styles.sectionLead}>
-          Accédez directement aux quatre rubriques principales de la commune.
+          Découvrez les associations collorecoises et les entreprises locales.
         </p>
         <div className={styles.cardsGrid}>
           {sectionCards.map((card) => (
@@ -150,7 +144,7 @@ function AgendaSection(): ReactNode {
         <div className={styles.agendaHeader}>
           <div>
             <Heading as="h2" className={styles.sectionTitle}>
-              Calendrier des activités communales
+              Agenda des activités associatives
             </Heading>
             <p className={styles.sectionLead}>
               Consultez les prochains rendez-vous et abonnez-vous au calendrier pour le synchroniser sur votre téléphone et ne rien manquer de la vie locale à Collorec.
@@ -158,7 +152,7 @@ function AgendaSection(): ReactNode {
           </div>
           <div className={styles.agendaActions}>
               <CalendarSubscribeButton
-                buttonLabel="S'abonner à l'agenda communal"
+                buttonLabel="S’abonner à l’agenda associatif"
                 webcalUrl="webcal://collorec.bzh/agenda.ics"
                 qrFileName="qr-agenda-communal.png"
               />
@@ -194,8 +188,9 @@ export default function Home(): ReactNode {
       description="Site communal de Collorec : vie locale, associations, entreprises et agenda des activités.">
       <Hero />
       <main>
-        <LocalSections />
+        <PhotoCarousel />
         <AgendaSection />
+        <LocalSections />
       </main>
     </Layout>
   );

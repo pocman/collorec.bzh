@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 # Contacter la commune
 
-**Une question sur la vie locale, un événement ou une activité? Nous sommes à votre écoute.**
+**Une question sur la vie locale, un événement ou une activité ? Nous sommes à votre écoute.**
 
 ---
 
@@ -15,23 +15,24 @@ hide_table_of_contents: true
 La commune accompagne les habitants, associations, entreprises et partenaires pour les projets du quotidien.
 
 ### Email
-**mairie@collorec.bzh**
+**mairie.collorec@wanadoo.fr**
 
 ---
 
 ## Horaires d'accueil
 
-Les permanences et réunions publiques sont annoncées sur la page d'accueil dans le calendrier des activités.
+Les permanences et réunions publiques sont annoncées sur la page d'accueil.
 
-| Service | Lieu | Information |
-|---------|------|-------------|
-| Accueil communal | Mairie de Collorec | Le Lundi : de 08h30 à 12h00 Du Mardi au Vendredi : de 08h30 à 12h00 de 13h30 à 17h00 |
+| Service | Horaires d’accueil | Téléphone |
+|---------|-------------------|-----------|
+| Mairie de Collorec | Du lundi au vendredi de 8h30 à 12h puis de 13h30 à 17h | [02.98.73.90.27](tel:+33298739027) |
+| Agence postale | Lundi, mardi, jeudi et vendredi de 8h45 à 12h30 puis de 14h à 15h45 ; le mercredi de 8h45 à 12h30 | [02.98.73.90.24](tel:+33298739024) |
 
 ---
 
 ## Votre message
 
-Pour faciliter le traitement de votre demande, merci de préciser :
+Pour faciliter le traitement de votre demande, merci de préciser :
 
 - Votre nom
 - Votre email ou numéro de téléphone

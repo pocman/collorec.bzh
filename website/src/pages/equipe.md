@@ -10,7 +10,7 @@ import styles from './equipe.module.css';
 
 **Des femmes et des hommes engagés pour la vie locale à Collorec**
 
-![Notre liste complète](img/team/liste.png)
+![Notre liste complète](/img/team/liste.png)
 
 ---
 

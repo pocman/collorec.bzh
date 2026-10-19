@@ -87,18 +87,16 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Commune de Collorec',
       logo: {
-        alt: 'Collorec Logo',
+        alt: 'Logo de Collorec',
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/ape', label: 'APE', position: 'left'},
-        {to: '/marche-des-marguerites', label: 'Marché des Marguerites', position: 'left'},
-        {to: '/entreprises', label: 'Entreprises', position: 'left'},
-        {to: '/associations', label: 'Associations', position: 'left'},
-        {to: '/programme', label: 'Programme Municipal', position: 'right'},
-        {to: '/equipe', label: 'Équipe Municipale', position: 'right'},
+        {to: '/', label: 'Commune de Collorec', position: 'left', activeBaseRegex: '^/$'},
+        {to: '/equipe', label: 'Équipe municipale', position: 'left'},
+        {to: '/programme', label: 'Programme municipal', position: 'left'},
+        {to: '/associations', label: 'Les associations collorecoises', position: 'left'},
+        {to: '/entreprises', label: 'Entreprises locales', position: 'left'},
         {to: '/contact', label: 'Contact', position: 'right'},
       ],
     },
@@ -113,7 +111,11 @@ const config: Config = {
               to: '/ape',
             },
             {
-              label: 'Associations',
+              label: 'Marché des Marguerites',
+              to: '/marche-des-marguerites',
+            },
+            {
+              label: 'Les associations collorecoises',
               to: '/associations',
             },
             {
@@ -125,6 +127,10 @@ const config: Config = {
         {
           title: 'Commune',
           items: [
+            {
+              label: 'Lire le dernier bulletin municipal',
+              to: '/bulletin-municipal',
+            },
             {
               label: 'Page Facebook de la liste municipale',
               href: 'https://www.facebook.com/people/Collorec-terre-de-liens/61588640097787/',

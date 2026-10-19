@@ -134,6 +134,28 @@ function main() {
     throw new Error('events.json must contain an array of events');
   }
 
+  events.forEach((event, index) => {
+    const label = `Événement n° ${index + 1}`;
+    if (!event || typeof event !== 'object' || Array.isArray(event)) {
+      throw new Error(`${label} dans events.json : un objet est attendu.`);
+    }
+
+    for (const field of ['title', 'startsAt', 'details', 'category']) {
+      if (typeof event[field] !== 'string' || event[field].trim() === '') {
+        throw new Error(`${label} (${event.title ?? 'sans titre'}) dans events.json : le champ « ${field} » doit être une chaîne non vide.`);
+      }
+    }
+
+    for (const field of ['startsAt', 'endsAt']) {
+      if (field === 'endsAt' && event[field] === undefined) {
+        continue;
+      }
+      if (typeof event[field] !== 'string' || Number.isNaN(new Date(event[field]).getTime())) {
+        throw new Error(`${label} (${event.title}) dans events.json : date invalide pour « ${field} ».`);
+      }
+    }
+  });
+
   const sortedEvents = [...events].sort((a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime());
 
   const categoryOutputMap = Object.fromEntries(

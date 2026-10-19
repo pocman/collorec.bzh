@@ -1,7 +1,15 @@
 .hero {
+  position: relative;
   padding: 4.5rem 0 4rem;
   text-align: center;
   background: radial-gradient(circle at top, #fffaf0 0%, #fff6e2 45%, #f6edd9 100%);
+}
+
+.heroContent {
+  position: relative;
+  background: rgba(255, 250, 240, 0.93);
+  border-radius: 14px;
+  padding: 1.5rem;
 }
 
 .heroLogoWrap {
@@ -39,6 +47,11 @@
   justify-content: center;
   gap: 0.8rem;
   flex-wrap: wrap;
+}
+
+.heroActions :global(.button),
+.agendaActions :global(.button) {
+  white-space: normal;
 }
 
 .sectionBlock {
