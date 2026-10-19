@@ -11,12 +11,8 @@ La vie associative de Collorec contribue au lien social, à la solidarité et à
 import Link from '@docusaurus/Link';
 
 <div className="margin-vert--lg">
-  <Link className="button button--primary margin-right--sm margin-bottom--sm" to="/ape">
-    Découvrir l’APE collorecoise
-  </Link>
-  <Link className="button button--primary margin-bottom--sm" to="/marche-des-marguerites">
-    Découvrir le Marché des Marguerites
-  </Link>
+  <Link className="button button--primary margin-right--sm" to="/ape">Découvrir l’APE collorecoise</Link>
+  <Link className="button button--primary margin-left--sm" to="/marche-des-marguerites">Découvrir le Marché des Marguerites</Link>
 </div>
 
 ## Domaines d'action
