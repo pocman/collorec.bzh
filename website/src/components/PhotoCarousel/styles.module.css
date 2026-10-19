@@ -1,0 +1,28 @@
+.carousel {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.carousel figure {
+  margin: 0;
+}
+
+.carousel img {
+  display: block;
+  width: 100%;
+  height: clamp(200px, 40vw, 450px);
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.carousel figcaption {
+  padding: 0.75rem 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
