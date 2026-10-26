@@ -26,7 +26,7 @@ Les permanences et réunions publiques sont annoncées sur la page d'accueil.
 | Service | Horaires d’accueil | Téléphone |
 |---------|-------------------|-----------|
 | Mairie de Collorec | Du lundi au vendredi de 8h30 à 12h puis de 13h30 à 17h | [02.98.73.90.27](tel:+33298739027) |
-| Agence postale | Lundi, mardi, jeudi et vendredi de 8h45 à 12h30 puis de 14h à 15h45 ; le mercredi de 8h45 à 12h30 | [02.98.73.90.24](tel:+33298739024) |
+| Agence postale | Du lundi au vendredi de 8h30 à 12h30 | [02.98.73.90.24](tel:+33298739024) |
 
 ---
 
