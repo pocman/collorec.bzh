@@ -67,6 +67,7 @@ Une cuisine faite maison, avec amour, pour apporter de la couleur, du partage et
 
 ### Fred's Pizza
 
+Vente de pizza à emporter.
 - **Téléphone :** [07 85 45 76 46](tel:+33785457646)
 
 ### Anne-Laure LE FUSTEC
@@ -100,6 +101,7 @@ Garde d’animaux à mon domicile ou au vôtre.
 
 ### La ferme de 'Ty Lulu'
 
+"Ty Lulu" vous propose des légumes de saison issu de culture respectueuse certifié Agriculture Biologique ! Zéro produits chimiques ici.. sur commande le lundi, restos/collectivités, et les vendredis sur le marché de Collorec.
 - **Téléphone :** [06 60 80 64 70](tel:+33660806470)
 
 ### Julie Di Dio
@@ -146,8 +148,9 @@ Maçonnerie et rénovation.
 Peinture et décoration.
 - **Téléphone :** [02 98 73 93 22](tel:+33298739322)
 
-### Marie-Josée CONAN — Assistante administrative véhicules (2AV)
+### Marie-Josée CONAN
 
+Assistante administrative véhicules (2AV)
 - **Téléphone :** [06 37 95 54 32](tel:+33637955432)
 - **Courriel :** [2av29@orange.fr](mailto:2av29@orange.fr)
 
