@@ -53,6 +53,10 @@ export default function APEPage(): ReactNode {
           </ul>
 
           <Heading as="h2">Prochains rendez-vous</Heading>
+          <ul style={{fontSize: '1rem', lineHeight: '1.8'}}>
+            <li><strong>Vente de boules de Noël :</strong> commandes jusqu’au 13 novembre 2026 inclus.</li>
+            <li><strong>Goûter de Noël :</strong> la date sera définie lors de la prochaine réunion, prévue mi-novembre.</li>
+          </ul>
           <p>
             <CalendarSubscribeButton
               buttonLabel="S'abonner à l'agenda de l'APE"

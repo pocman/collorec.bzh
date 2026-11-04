@@ -71,6 +71,7 @@ function buildUid(event, startDate) {
 }
 
 function toIcsEvent(event, calendarOutput = {}) {
+  const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(event.startsAt);
   const startDate = new Date(event.startsAt);
   if (Number.isNaN(startDate.getTime())) {
     throw new Error(`Invalid startsAt date for event "${event.title}": ${event.startsAt}`);
@@ -78,7 +79,7 @@ function toIcsEvent(event, calendarOutput = {}) {
 
   const endDate = event.endsAt
     ? new Date(event.endsAt)
-    : new Date(startDate.getTime() + DEFAULT_EVENT_DURATION_MINUTES * 60_000);
+    : new Date(startDate.getTime() + (dateOnly ? 24 * 60 : DEFAULT_EVENT_DURATION_MINUTES) * 60_000);
 
   if (Number.isNaN(endDate.getTime())) {
     throw new Error(`Invalid endsAt date for event "${event.title}": ${event.endsAt}`);
@@ -86,16 +87,14 @@ function toIcsEvent(event, calendarOutput = {}) {
 
   const eventUrl = event.url ?? CATEGORY_URLS[event.category];
   const geo = event.geo ?? DEFAULT_GEO;
-  const location = calendarOutput.defaultAddress
-    ? calendarOutput.defaultAddress
-    : (event.place ? event.place : "Collorec");
+  const location = event.place || calendarOutput.defaultAddress || "Collorec";
 
   return [
     'BEGIN:VEVENT',
     `UID:${buildUid(event, startDate)}`,
     `DTSTAMP:${formatUtcDate(new Date())}`,
-    `DTSTART:${formatUtcDate(startDate)}`,
-    `DTEND:${formatUtcDate(endDate)}`,
+    dateOnly ? `DTSTART;VALUE=DATE:${formatUtcDate(startDate).slice(0, 8)}` : `DTSTART:${formatUtcDate(startDate)}`,
+    dateOnly ? `DTEND;VALUE=DATE:${formatUtcDate(endDate).slice(0, 8)}` : `DTEND:${formatUtcDate(endDate)}`,
     `SUMMARY:${escapeIcsText(event.title)}`,
     `LOCATION:${escapeIcsText(location)}`,
     `GEO:${geo}`,

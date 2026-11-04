@@ -126,5 +126,25 @@
     "place": "La Maison Pour Tous, Collorec",
     "details": "Spectacle de théâtre d’improvisation organisé par la commission culture. Entrée libre. Buvette sur place.",
     "category": "Commission culture"
+  },
+  {
+    "title": "Repas à emporter de l’APE",
+    "startsAt": "2027-02-05",
+    "details": "Repas à emporter organisé par l’APE Collorécoise. Horaires à préciser.",
+    "category": "APE"
+  },
+  {
+    "title": "Chasse aux œufs de l’APE",
+    "startsAt": "2027-03-21",
+    "place": "Le Plan d’Eau, 29530 Collorec",
+    "details": "Chasse aux œufs organisée par l’APE Collorécoise au plan d’eau. Horaires à préciser.",
+    "category": "APE"
+  },
+  {
+    "title": "Kermesse de l’APE",
+    "startsAt": "2027-06-26",
+    "place": "Le Plan d’Eau, 29530 Collorec",
+    "details": "Kermesse organisée par l’APE Collorécoise au plan d’eau. Horaires à préciser.",
+    "category": "APE"
   }
 ]
