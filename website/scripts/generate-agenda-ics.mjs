@@ -33,7 +33,7 @@ const CATEGORY_URLS = {
   "Marché": 'https://collorec.bzh/marche-des-marguerites',
   "Entreprises": 'https://collorec.bzh/entreprises',
   "Associations": 'https://collorec.bzh/associations',
-  "Commission culture": 'https://collorec.bzh/programme',
+  "Commune": 'https://collorec.bzh/',
 };
 
 const DEFAULT_GEO = '48.283329;-3.783330';

@@ -70,11 +70,6 @@ Une cuisine faite maison, avec amour, pour apporter de la couleur, du partage et
 Vente de pizza à emporter.
 - **Téléphone :** [07 85 45 76 46](tel:+33785457646)
 
-### Anne-Laure LE FUSTEC
-
-Conseillère beauté et bien-être.
-- **Téléphone :** [07 70 25 75 49](tel:+33770257549)
-
 ### SAS Philippe CASTEL
 
 Électricité, plomberie et sanitaires.
@@ -162,7 +157,7 @@ Peinture, papier peint, enduits et enduits décoratifs, conseil et accompagnemen
 - **Téléphone :** [06 36 38 98 45](tel:+33636389845)
 - **Courriel :** [renaux.peintre@gmail.com](mailto:renaux.peintre@gmail.com)
 
-### MENHIR PROPRETE
+### Menhir propreté et services
 
 Fabrice Tonarelli ouvre son entreprise et propose aux particuliers, professionnels et collectivités une intervention rapide avec du matériel professionnel, dans un périmètre de 30 km autour de Collorec.
 

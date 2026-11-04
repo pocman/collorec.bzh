@@ -94,7 +94,7 @@ const config: Config = {
       items: [
         {to: '/', label: 'Commune de Collorec', position: 'left', activeBaseRegex: '^/$'},
         {to: '/equipe', label: 'Équipe municipale', position: 'left'},
-        {to: '/programme', label: 'Programme municipal', position: 'left'},
+        {to: '/programme', label: 'Commissions municipales', position: 'left'},
         {to: '/bulletin-municipal', label: 'Bulletin municipal', position: 'left'},
         {to: '/associations', label: 'Les associations collorecoises', position: 'left'},
         {to: '/entreprises', label: 'Entreprises locales', position: 'left'},
