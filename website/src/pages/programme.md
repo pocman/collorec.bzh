@@ -1,12 +1,12 @@
 ---
-title: Programme Municipal
-description: Les priorités de la commune de Collorec pour la vie locale
+title: Commissions municipales
+description: Les commissions municipales et les projets en cours et à venir à Collorec
 hide_table_of_contents: true
 ---
 
-# Programme Municipal
+# Commissions municipales
 
-**Une feuille de route pour une commune active, solidaire et à taille humaine.**
+**Les projets en cours et à venir.**
 
 ---
 
@@ -37,7 +37,9 @@ hide_table_of_contents: true
 
 ---
 
-## Culture, patrimoine et loisirs
+## Commission culture, patrimoine, animations et jeunesse
+
+Sous-commissions : culture, patrimoine, animations et jeunesse.
 
 - Consolider une dynamique culturelle ouverte à tous les publics
 - Mettre en valeur le patrimoine communal

@@ -23,7 +23,7 @@ type EventItem = {
   startsAt: string;
   place: string;
   details: string;
-  category: 'APE' | 'Marché' | 'Entreprises' | 'Associations';
+  category: string;
 };
 
 const sectionCards: SectionCard[] = [
