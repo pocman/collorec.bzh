@@ -6,7 +6,8 @@ import EventsList from '../components/EventsList';
 import CalendarSubscribeButton from '../components/CalendarSubscribeButton';
 
 export default function APEPage(): ReactNode {
-  const bureauPhoto = useBaseUrl('/img/ape/bureau-2026.jpg');
+  const bureauPhoto = useBaseUrl('/img/ape/bureau-2026.webp');
+  const fleursPhoto = useBaseUrl('/img/ape/ape_fleur_2026.webp');
 
   return (
     <Layout
@@ -23,7 +24,7 @@ export default function APEPage(): ReactNode {
           <figure style={{margin: '1.5rem 0 2rem'}}>
             <img
               src={bureauPhoto}
-              alt="Le bureau de l'APE collorecoise"
+              alt="Le bureau de l'APE collorécoise"
               style={{
                 display: 'block',
                 width: '100%',
@@ -41,6 +42,25 @@ export default function APEPage(): ReactNode {
             <li>Organiser des actions de financement (kermesse, ventes, animations)</li>
             <li>Maintenir un lien régulier entre familles, équipe enseignante et commune</li>
           </ul>
+
+          <figure style={{margin: '1.5rem 0 2rem'}}>
+            <img
+              src={fleursPhoto}
+              alt="Un groupe pose derrière des compositions florales dans une salle communale."
+              width={996}
+              height={572}
+              loading="lazy"
+              decoding="async"
+              style={{
+                display: 'block',
+                width: '100%',
+                maxWidth: '980px',
+                height: 'auto',
+                borderRadius: '18px',
+                boxShadow: '0 12px 28px rgba(0, 0, 0, 0.14)',
+              }}
+            />
+          </figure>
 
           <Heading as="h2">Équipe</Heading>
           <p style={{fontSize: '1rem', lineHeight: '1.7'}}>

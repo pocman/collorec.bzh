@@ -71,12 +71,20 @@ dans `static/260909_BM_3emetrimestre.pdf`, et propose son téléchargement.
 
 Pour publier le bulletin ou ajouter des photos, déposer le PDF dans
 `static/` et les photos autorisées dans `static/img/carousel/`, puis
-renseigner `src/data/municipalMedia.ts` :
+renseigner `src/data/municipalMedia.ts`. Utiliser des images compressées au format
+WebP pour le carrousel et la page APE (`static/img/ape/`), en conservant leurs
+dimensions :
+
+```bash
+cwebp -q 80 -m 6 photo.jpg -o photo.webp
+```
+
+Exemple de déclaration du carrousel :
 
 ```ts
 export const landscapePhotos: LandscapePhoto[] = [
   {
-    src: '/img/carousel/paysage.jpg',
+    src: '/img/carousel/paysage.webp',
     alt: 'Description du paysage de Collorec photographié',
     credit: 'Nom du photographe — autorisation ou licence',
   },
@@ -89,7 +97,9 @@ export const municipalBulletin: {title: string; file: string} | null = {
 };
 ```
 
-Les photos figurent uniquement dans le carrousel sous le bandeau d’accueil. Renseigner une description et le
+Les photos déclarées dans `municipalMedia.ts` figurent dans le carrousel sous le
+bandeau d’accueil. Les photos de la page APE sont référencées dans
+`src/pages/ape.tsx`. Renseigner une description et le
 crédit de chaque photo, et vérifier les droits de publication avant tout ajout.
 Les chemins sont relatifs à `static/`, sans le préfixe de déploiement GitHub Pages.
 Sans photo, le carrousel reste masqué.
