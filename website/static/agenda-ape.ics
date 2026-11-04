@@ -7,7 +7,7 @@ X-WR-CALNAME:Agenda APE de Collorec
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:ape-reunion-de-l-ape-20260602@collorec.bzh
-DTSTAMP:20261104T135942Z
+DTSTAMP:20261019T135030Z
 DTSTART:20260602T163000Z
 DTEND:20260602T183000Z
 SUMMARY:Réunion de l'APE
@@ -25,7 +25,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ape-pot-de-fin-d-annee-scolaire-de-l-ape-20260630@collorec.bzh
-DTSTAMP:20261104T135942Z
+DTSTAMP:20261019T135030Z
 DTSTART:20260630T140000Z
 DTEND:20260630T160000Z
 SUMMARY:Pot de fin d'année scolaire de l'APE
@@ -43,7 +43,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ape-raclette-de-l-ape-collorecoise-20261017@collorec.bzh
-DTSTAMP:20261104T135942Z
+DTSTAMP:20261019T135030Z
 DTSTART:20261017T170000Z
 DTEND:20261017T190000Z
 SUMMARY:Raclette de l'APE Collorecoise
@@ -57,60 +57,6 @@ BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
 DESCRIPTION:Rappel : Raclette de l'APE Collorecoise
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ape-repas-a-emporter-de-l-ape-20270205@collorec.bzh
-DTSTAMP:20261104T135942Z
-DTSTART:20270205T180000Z
-DTEND:20270205T200000Z
-SUMMARY:Repas à emporter de l’APE
-LOCATION:Rue de l'École\, 29530 Collorec
-GEO:48.283329;-3.783330
-DESCRIPTION:Repas à emporter organisé par l’APE Collorécoise. Horaires à préciser.
-URL:https://collorec.bzh/ape
-ORGANIZER:mailto:ape.collorecoise@hotmail.com
-STATUS:CONFIRMED
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Rappel : Repas à emporter de l’APE
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ape-chasse-aux-ufs-de-l-ape-20270321@collorec.bzh
-DTSTAMP:20261104T135942Z
-DTSTART;VALUE=DATE:20270321
-DTEND;VALUE=DATE:20270322
-SUMMARY:Chasse aux œufs de l’APE
-LOCATION:Le Plan d’Eau\, 29530 Collorec
-GEO:48.283329;-3.783330
-DESCRIPTION:Chasse aux œufs organisée par l’APE Collorécoise au plan d’eau. Horaires à préciser.
-URL:https://collorec.bzh/ape
-ORGANIZER:mailto:ape.collorecoise@hotmail.com
-STATUS:CONFIRMED
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Rappel : Chasse aux œufs de l’APE
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ape-kermesse-de-l-ape-20270626@collorec.bzh
-DTSTAMP:20261104T135942Z
-DTSTART;VALUE=DATE:20270626
-DTEND;VALUE=DATE:20270627
-SUMMARY:Kermesse de l’APE
-LOCATION:Le Plan d’Eau\, 29530 Collorec
-GEO:48.283329;-3.783330
-DESCRIPTION:Kermesse organisée par l’APE Collorécoise au plan d’eau. Horaires à préciser.
-URL:https://collorec.bzh/ape
-ORGANIZER:mailto:ape.collorecoise@hotmail.com
-STATUS:CONFIRMED
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Rappel : Kermesse de l’APE
 END:VALARM
 END:VEVENT
 END:VCALENDAR
