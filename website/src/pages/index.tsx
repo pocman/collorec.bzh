@@ -43,12 +43,15 @@ const sectionCards: SectionCard[] = [
 
 function formatDate(isoString: string): string {
   const date = new Date(isoString);
+  const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(isoString);
   return new Intl.DateTimeFormat('fr-FR', {
     weekday: 'short',
     day: '2-digit',
     month: 'long',
-    hour: '2-digit',
-    minute: '2-digit',
+    year: dateOnly ? 'numeric' : undefined,
+    hour: dateOnly ? undefined : '2-digit',
+    minute: dateOnly ? undefined : '2-digit',
+    timeZone: dateOnly ? 'UTC' : undefined,
   }).format(date);
 }
 

@@ -39,6 +39,8 @@ Règle de gestion recommandée :
 1. Ajouter ou modifier d'abord l'événement dans `src/data/events.json`
    - `title` : titre de l'événement
    - `startsAt` : date/heure ISO 8601 (ex: "2026-05-14T18:30:00+02:00")
+     ou date seule (ex: "2027-02-05") lorsque l’horaire n’est pas encore connu.
+     Une date seule est affichée sans horaire et exportée sur la journée entière.
    - `endsAt` (optionnel) : date/heure ISO 8601 de fin
    - `place` : lieu de l'événement
    - `details` : description courte
