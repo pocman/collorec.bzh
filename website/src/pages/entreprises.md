@@ -45,7 +45,7 @@ Vente de pizza à emporter.
 
 ### Isabelle LE MEUR
 
-Transport de malades.
+Taxi.
 - **Téléphone :** [02 98 73 93 22](tel:+33298739322)
 
 ### Julie Di Dio
@@ -71,11 +71,6 @@ Restaurant.
 - **Téléphone :** [02 98 99 16 74](tel:+33298991674)
 - **Courriel :** [lepassagerestaurant29@gmail.com](mailto:lepassagerestaurant29@gmail.com)
 
-### Location de gîtes saisonniers
-
-- **Téléphone :** [06 83 12 48 83](tel:+33683124883)
-- **Courriel :** [vialmaria955@gmail.com](mailto:vialmaria955@gmail.com)
-
 ### Marie-Josée CONAN
 
 Assistante administrative véhicules (2AV)
@@ -94,6 +89,11 @@ Entretien courant : vitres, vérandas, vitrines et terrasses. Nettoyage techniqu
 Atelier de conception et de prototypage sur mesure de pièces moto et cycle.
 - **Téléphone :** [06 13 09 58 03](tel:+33613095803)
 - **Courriel :** [no.stock.factory@gmail.com](mailto:no.stock.factory@gmail.com)
+
+### Patricia Boutrin — Lumière de Sens et Conrad Liotta — Killa-Mantay
+
+Bien-être et thérapies complémentaires au 7 route de Coatilion.
+- **Téléphone :** [06 48 16 00 34](tel:+33648160034)
 
 ### SAS Philippe CASTEL
 
@@ -166,4 +166,4 @@ Peinture et décoration.
 
 ## Référencer une activité
 
-Pour ajouter ou mettre à jour votre activité, envoyez un email à thomas@collorec.bzh.
+Pour ajouter ou mettre à jour votre activité, envoyez un email à [mairie-collorec@wanadoo.fr](mailto:mairie-collorec@wanadoo.fr).

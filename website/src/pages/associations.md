@@ -36,7 +36,9 @@ import Link from '@docusaurus/Link';
 - **L'APE Collorécoise** - Association des Parents d'Élèves
 - **Sourded An Elez** - Promouvoir la culture bretonne lors d’événements festifs
 - **Société communale de chasse « La Saint-Hubert » de Collorec** - Loisir et gestion cynégétique
+- **Dès lors** - Association collorecoise de Sophie Hoareau, intermittente du spectacle
+- **L’Abeille joyeuse**
 
 ## Rejoindre ou créer une association
 
-La commune accompagne les initiatives locales. Les porteurs de projets peuvent se signaler par email à juliette@collorec.bzh.
+La commune accompagne les initiatives locales. Les porteurs de projets peuvent se signaler par email à [mairie-collorec@wanadoo.fr](mailto:mairie-collorec@wanadoo.fr).

@@ -21,7 +21,7 @@ La commune accompagne les habitants, associations, entreprises et partenaires po
 
 ## Horaires d'accueil
 
-Les permanences et réunions publiques sont annoncées sur la page d'accueil.
+Les permanences sont annoncées sur la page d'accueil.
 
 | Service | Horaires d’accueil | Téléphone |
 |---------|-------------------|-----------|
