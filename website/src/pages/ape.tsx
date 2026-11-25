@@ -68,14 +68,14 @@ export default function APEPage(): ReactNode {
           </p>
           <ul style={{fontSize: '1rem', lineHeight: '1.8'}}>
             <li><strong>Co-présidentes :</strong> Céline Jouel et Léna Rannou</li>
-            <li><strong>Co-secrétaires :</strong> Pauline Sergent</li>
+            <li><strong>Secrétaire :</strong> Pauline Sergent</li>
             <li><strong>Trésorier :</strong> Jason Quenaon</li>
           </ul>
 
           <Heading as="h2">Prochains rendez-vous</Heading>
           <ul style={{fontSize: '1rem', lineHeight: '1.8'}}>
-            <li><strong>Vente de boules de Noël :</strong> commandes jusqu’au 13 novembre 2026 inclus.</li>
-            <li><strong>Goûter de Noël :</strong> la date sera définie lors de la prochaine réunion, prévue mi-novembre.</li>
+            <li><strong>Vente de boules de Noël :</strong> commandes jusqu’au 13 novembre 2026 inclus. Contactez Léna par téléphone ; numéro à préciser.</li>
+            <li><strong>Goûter de Noël :</strong> un événement pour réunir les parents, les futurs parents et les conseils municipaux. La date sera définie lors de la prochaine réunion, prévue mi-novembre.</li>
           </ul>
           <p>
             <CalendarSubscribeButton

@@ -19,7 +19,7 @@ function formatDate(isoString: string): string {
     year: dateOnly ? 'numeric' : undefined,
     hour: dateOnly ? undefined : '2-digit',
     minute: dateOnly ? undefined : '2-digit',
-    timeZone: dateOnly ? 'UTC' : undefined,
+    timeZone: dateOnly ? 'UTC' : 'Europe/Paris',
   }).format(date);
 }
 

@@ -32,8 +32,7 @@ export default function MarchePage(): ReactNode {
             <li><strong>Anthony</strong> - Lait cru du jour, yaourts, Cheddar (poivre, cumin, affiné), poulet</li>
             <li><strong>Éline</strong> - Nems, samossas, beignets de crevettes et autres spécialités</li>
             <li><strong>Kombuchas et vinaigres</strong> - Boissons fermentées</li>
-            <li><strong>Armelle</strong> - Thés, infusions et cosmétiques bio</li>
-            <li><strong>Solène (Nomad'Tif)</strong> - Produits artisanaux (sur réservation)</li>
+            <li><strong>Solène (Nomad’Tif)</strong> - Coiffeuse ambulante</li>
           </ul>
 
           <Heading as="h2">Prochaines dates</Heading>
@@ -49,7 +48,8 @@ export default function MarchePage(): ReactNode {
           <Heading as="h2">Informations pratiques</Heading>
           <ul style={{fontSize: '1rem', lineHeight: '1.8'}}>
             <li>Lieu : plan d'eau de Collorec</li>
-            <li>Horaires : tous les vendredi de 16h00 à 19h30</li>
+            <li>Horaires d’été : le vendredi de 16 h 30 à 19 h 30</li>
+            <li>Horaires d’hiver : le vendredi de 16 h 30 à 19 h</li>
             <li>Organisation : habitants bénévoles et partenaires locaux</li>
           </ul>
 
