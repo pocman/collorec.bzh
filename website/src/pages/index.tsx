@@ -39,6 +39,12 @@ const sectionCards: SectionCard[] = [
     to: '/associations',
     cta: 'Découvrir les associations collorecoises',
   },
+  {
+    title: 'Hébergements à Collorec',
+    description: 'Retrouvez les informations sur les hébergements de la commune.',
+    to: '/hebergement',
+    cta: 'Découvrir les hébergements',
+  },
 ];
 
 function formatDate(isoString: string): string {
@@ -120,7 +126,7 @@ function LocalSections(): ReactNode {
           Vie locale à Collorec
         </Heading>
         <p className={styles.sectionLead}>
-          Découvrez les associations collorecoises et les entreprises locales.
+          Découvrez les associations collorecoises, les entreprises locales et les hébergements.
         </p>
         <div className={styles.cardsGrid}>
           {sectionCards.map((card) => (

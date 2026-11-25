@@ -98,6 +98,7 @@ const config: Config = {
         {to: '/bulletin-municipal', label: 'Bulletin municipal', position: 'left'},
         {to: '/associations', label: 'Les associations collorecoises', position: 'left'},
         {to: '/entreprises', label: 'Entreprises locales', position: 'left'},
+        {to: '/hebergement', label: 'Hébergement', position: 'left'},
         {to: '/contact', label: 'Contact', position: 'right'},
       ],
     },
@@ -123,6 +124,10 @@ const config: Config = {
               label: 'Entreprises',
               to: '/entreprises',
             },
+            {
+              label: 'Hébergement',
+              to: '/hebergement',
+            },
           ],
         },
         {
@@ -131,10 +136,6 @@ const config: Config = {
             {
               label: 'Lire le dernier bulletin municipal',
               to: '/bulletin-municipal',
-            },
-            {
-              label: 'Page Facebook de la liste municipale',
-              href: 'https://www.facebook.com/people/Collorec-terre-de-liens/61588640097787/',
             },
             {
               label: 'Page Facebook de la commune',
