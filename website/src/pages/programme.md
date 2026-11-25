@@ -6,53 +6,76 @@ hide_table_of_contents: true
 
 # Commissions municipales
 
-**Les projets en cours et à venir.**
+## Commission finances
 
----
+- Gestion du budget de la commune
 
-## Habitat, mobilité et sécurité
+## Commission travaux voiries
 
-- Favoriser l'accueil de nouveaux habitants et de familles
-- Soutenir une offre de logements adaptée aux besoins locaux
-- Entretenir la voirie et renforcer la sécurité routière
-- Maintenir et actualiser le plan communal de sauvegarde
-- Travailler avec l'intercommunalité sur les solutions de mobilité
+- En cours : reprise des enrobés sur la route du Peuillou et la route de Kerziellou
+- Pavillons locatifs, réaménagement de la mairie, extension du restaurant, reprise du local communautaire, aménagement de l’école, aménagement du plan d’eau
 
----
+## Commission ouverture des plis
 
-## Vie scolaire
+- Analyse des offres des entreprises
+- Organisation des commissions d’attribution des offres
 
-- Maintenir une école de qualité et des services périscolaires solides
-- Sécuriser et aménager les abords de l'école
-- Accompagner les projets pédagogiques et les actions de l'APE
+## CCAS
 
----
+- Colis de Noël pour les personnes âgées de plus de 82 ans
+- Accompagnement social
+- Colis alimentaires
 
-## Vie économique
+## Commission culture, patrimoine, animation, jeunesse
 
-- Soutenir les entreprises, artisans et exploitations agricoles locales
-- Faciliter les coopérations autour des circuits courts
-- Valoriser les commerces de proximité et les savoir-faire du territoire
-- Renforcer les temps de rencontre entre acteurs economiques
+Cette commission est ouverte à toute personne extérieure au conseil municipal.
 
----
-
-## Commission culture, patrimoine, animations et jeunesse
-
-Sous-commissions : culture, patrimoine, animations et jeunesse.
+### Sous-commission culture et animations
 
 - Consolider une dynamique culturelle ouverte à tous les publics
-- Mettre en valeur le patrimoine communal
 - Soutenir les initiatives festives et les associations locales
-- Moderniser les équipements communaux utiles aux manifestations
-- Renforcer la mairie comme lieu d'accueil et de service public
 
----
+### Sous-commission patrimoine
 
-## Communication, social et solidarité
+- Mettre en valeur le patrimoine communal
+- Réfléchir à l’aménagement du plan d’eau
 
-- Maintenir une information régulière (site, réseaux, bulletin)
-- Organiser des permanences pour faciliter l'écoute des habitants
-- Préserver les services de proximité utiles au quotidien
-- Renforcer l'accompagnement social en lien avec le CCAS
-- Soutenir les associations, acteurs essentiels du lien communal
+### Sous-commission jeunesse
+
+- Aménagement de la cour de l’école et de ses abords
+
+## Commission communication
+
+- Mise en place du site internet et développement de la présence numérique de la commune
+
+## Commission de contrôle de la liste électorale
+
+- Élue titulaire : Delphine Cochennec
+- Élue suppléante : Fabienne Bourlès
+- Déléguée de l’administration : Florence Cras Nourrisson
+- Déléguée titulaire du tribunal : Françoise Maguet
+- Délégué suppléant du tribunal : Gilbert Thépot
+
+## Participation aux commissions
+
+Les participations non renseignées restent à préciser auprès de la mairie. Céline Jouel et Simon Renaux sont présentés comme suppléants.
+
+| Membre | Finances | Travaux voiries | Ouverture des plis | CCAS | Culture, patrimoine, animation, jeunesse | Communication | Contrôle de la liste électorale |
+|---|---|---|---|---|---|---|---|
+| Georges Croguennec | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser |
+| Nadine Poupon | À préciser | À préciser | À préciser | Membre | À préciser | À préciser | À préciser |
+| Philippe Castel | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser |
+| Gaëlle Dezzani | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser |
+| Jason Quenaon | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser |
+| Fabienne Bourlès | À préciser | À préciser | À préciser | Membre | À préciser | À préciser | Suppléante |
+| Christine Fouqueteau | À préciser | À préciser | À préciser | Membre | À préciser | À préciser | À préciser |
+| Juliette Ols | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser |
+| Armel Barazer | À préciser | À préciser | À préciser | Membre | À préciser | À préciser | À préciser |
+| Sourèche Vingadesvarane | À préciser | À préciser | À préciser | Membre | À préciser | À préciser | À préciser |
+| Francis Le Baut | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser |
+| Céline Jouel | À préciser | À préciser | À préciser | Membre | À préciser | À préciser | À préciser |
+| Simon Renaux | À préciser | À préciser | À préciser | Membre | À préciser | À préciser | À préciser |
+| Delphine Cochennec | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser | Titulaire |
+| Corentin Carne | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser |
+| Véronique Marchesseau | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser |
+| Fabrice Tonarelli | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser | À préciser |
