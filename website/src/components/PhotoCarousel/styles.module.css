@@ -24,7 +24,7 @@
 .slide {
   flex: 0 0 100%;
   margin: 0;
-  min-height: clamp(260px, 56vw, 560px);
+  aspect-ratio: 4 / 3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,7 +35,7 @@
 .slide img {
   display: block;
   width: 100%;
-  height: clamp(260px, 56vw, 560px);
+  height: 100%;
   object-fit: contain;
   background: transparent;
 }
@@ -160,11 +160,13 @@
 .fullscreenShell .slide {
   min-height: 0;
   height: 100%;
+  aspect-ratio: auto;
   background: transparent;
 }
 
 .fullscreenShell .slide img {
   height: 100%;
+  object-fit: contain;
   background: transparent;
 }
 
@@ -193,14 +195,6 @@
 }
 
 @media (max-width: 768px) {
-  .slide {
-    min-height: clamp(220px, 72vw, 420px);
-  }
-
-  .slide img {
-    height: clamp(220px, 72vw, 420px);
-  }
-
   .navButton {
     width: 2.6rem;
     height: 2.6rem;
