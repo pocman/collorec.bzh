@@ -7,6 +7,11 @@
   outline: none;
 }
 
+.carousel > .viewport {
+  max-width: 720px;
+  margin-inline: auto;
+}
+
 .viewport {
   position: relative;
   overflow: hidden;
@@ -131,11 +136,21 @@
 }
 
 .fullscreenDialog {
-  width: min(96vw, 1200px);
-  height: min(96vh, 900px);
-  padding: 0;
+  position: fixed;
+  inset: 0;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  height: 100vh;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: max(0.75rem, env(safe-area-inset-top))
+    max(0.75rem, env(safe-area-inset-right))
+    max(0.75rem, env(safe-area-inset-bottom))
+    max(0.75rem, env(safe-area-inset-left));
   border: none;
-  background: transparent;
+  background: rgba(8, 12, 20, 0.96);
 }
 
 .fullscreenDialog::backdrop {
@@ -146,15 +161,28 @@
 .fullscreenShell {
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
   gap: 0.75rem;
 }
 
+.fullscreenStage {
+  min-height: 0;
+  min-width: 0;
+  container-type: size;
+  display: grid;
+  place-items: center;
+}
+
 .fullscreenShell .viewport {
-  flex: 1;
+  width: min(100cqw, calc(100cqh * 4 / 3), 1200px);
+  aspect-ratio: 4 / 3;
   border-radius: 18px;
-  background: rgba(8, 12, 20, 0.96);
+}
+
+.fullscreenShell .track {
+  height: 100%;
 }
 
 .fullscreenShell .slide {
@@ -174,8 +202,13 @@
   color: rgba(255, 255, 255, 0.88);
 }
 
+.fullscreenShell .navButton {
+  min-width: 44px;
+  min-height: 44px;
+}
+
 .closeButton {
-  align-self: flex-end;
+  justify-self: end;
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 999px;
@@ -189,6 +222,8 @@
 
 .fullscreenCaption {
   margin: 0;
+  max-height: 20dvh;
+  overflow-y: auto;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-size: 0.98rem;

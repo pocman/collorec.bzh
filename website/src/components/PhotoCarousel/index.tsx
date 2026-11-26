@@ -14,7 +14,7 @@ function Photo({photo, inline}: {photo: LandscapePhoto; inline?: boolean}): Reac
         loading={inline ? 'lazy' : 'eager'}
         decoding="async"
       />
-      {photo.credit && <figcaption>{photo.alt} — {photo.credit}</figcaption>}
+      {inline && photo.credit && <figcaption>{photo.alt} — {photo.credit}</figcaption>}
     </>
   );
 }
@@ -147,41 +147,49 @@ export default function PhotoCarousel(): ReactNode {
             ×
           </button>
 
-          <div className={styles.viewport}>
-            <div className={styles.track} style={{transform: `translateX(-${current * 100}%)`}}>
-              {landscapePhotos.map((photo, index) => (
-                <figure
-                  key={photo.src}
-                  className={styles.slide}
-                  role="group"
-                  aria-roledescription="diapositive"
-                  aria-label={`${index + 1} sur ${total}`}>
-                  <Photo photo={photo} />
-                </figure>
-              ))}
-            </div>
+          <div
+            className={styles.fullscreenStage}
+            onClick={(event) => {
+              if (event.target === event.currentTarget) {
+                closeFullscreen();
+              }
+            }}>
+            <div className={styles.viewport}>
+              <div className={styles.track} style={{transform: `translateX(-${current * 100}%)`}}>
+                {landscapePhotos.map((photo, index) => (
+                  <figure
+                    key={photo.src}
+                    className={styles.slide}
+                    role="group"
+                    aria-roledescription="diapositive"
+                    aria-label={`${index + 1} sur ${total}`}>
+                    <Photo photo={photo} />
+                  </figure>
+                ))}
+              </div>
 
-            {total > 1 && (
-              <>
-                <button
-                  className={`${styles.navButton} ${styles.navButtonPrev}`}
-                  type="button"
-                  onClick={() => goTo(-1)}
-                  aria-label="Photo précédente">
-                  <span aria-hidden="true">‹</span>
-                </button>
-                <button
-                  className={`${styles.navButton} ${styles.navButtonNext}`}
-                  type="button"
-                  onClick={() => goTo(1)}
-                  aria-label="Photo suivante">
-                  <span aria-hidden="true">›</span>
-                </button>
-              </>
-            )}
+              {total > 1 && (
+                <>
+                  <button
+                    className={`${styles.navButton} ${styles.navButtonPrev}`}
+                    type="button"
+                    onClick={() => goTo(-1)}
+                    aria-label="Photo précédente">
+                    <span aria-hidden="true">‹</span>
+                  </button>
+                  <button
+                    className={`${styles.navButton} ${styles.navButtonNext}`}
+                    type="button"
+                    onClick={() => goTo(1)}
+                    aria-label="Photo suivante">
+                    <span aria-hidden="true">›</span>
+                  </button>
+                </>
+              )}
 
-            <div className={styles.counter} aria-live="polite" aria-atomic="true">
-              {current + 1}/{total}
+              <div className={styles.counter} aria-live="polite" aria-atomic="true">
+                {current + 1}/{total}
+              </div>
             </div>
           </div>
 
